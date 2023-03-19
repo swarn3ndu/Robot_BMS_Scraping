@@ -13,3 +13,11 @@ USAGE:
 6. Use command "python.exe -m robot ." to run this project.
 7. The output will be a excel sheet @ <YOUR FOLDER PATH>\actual\output\Movie.xlsx. It also generates JSON files at the same location for further use.
 8. Configurations can be changed from the file @ <YOUR FOLDER PATH>\actual\resources.robot
+
+
+TroubleShooting:
+
+WebDriverException: Message: 'chromedriver' executable needs to be in PATH.
+  1. Download chrome driver if you havent.(https://chromedriver.chromium.org/home)
+  2. Once downloaded, copy the driver into VENV of your current robot project.
+  3. Now run.
