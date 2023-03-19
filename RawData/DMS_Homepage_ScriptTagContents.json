@@ -1,0 +1,4064 @@
+{
+    "aboutRewards": {
+        "backgroundColors": [],
+        "data": [],
+        "isError": false,
+        "isFetching": false,
+        "isSuccess": false
+    },
+    "ads": {
+        "adDetails": [],
+        "errorMsg": "",
+        "isError": false,
+        "isLoading": false
+    },
+    "appConfig": {
+        "apiRetryIntervals": {
+            "longUrl": [
+                2
+            ],
+            "synopsisDynamic": [
+                1,
+                2
+            ],
+            "synopsisStatic": [
+                2
+            ]
+        },
+        "appCode": "WEBV2",
+        "deviceType": "desktop",
+        "discovery": {
+            "isMovieRatingsModalVisible": true
+        },
+        "experiments": {
+            "4_tMEBqHRnS9YZ3yTWxYHg": {
+                "pageRegex": [],
+                "variants": {
+                    "0": {
+                        "isDefault": true,
+                        "variantSlug": "adtechPVRPrivBanner=default"
+                    },
+                    "1": {
+                        "isDefault": false,
+                        "variantSlug": "adtechPVRPrivBanner=variant"
+                    }
+                }
+            },
+            "AlugYF7YS7argUiX-NBnkw": {
+                "pageRegex": [],
+                "variants": {
+                    "0": {
+                        "isDefault": true,
+                        "variantSlug": "moviesCoachmark=default"
+                    },
+                    "1": {
+                        "isDefault": false,
+                        "variantSlug": "moviesCoachmark=variant"
+                    }
+                }
+            },
+            "ITNsGQBcTHCwEMWHq6hC7g": {
+                "pageRegex": [
+                    "/explore/"
+                ],
+                "variants": {
+                    "0": {
+                        "isDefault": true,
+                        "variantSlug": "exploreBottomNav=default"
+                    },
+                    "1": {
+                        "isDefault": false,
+                        "variantSlug": "exploreBottomNav=variant"
+                    }
+                }
+            },
+            "J-uYf1LDR76Q6vznJbnQaQ": {
+                "pageRegex": [],
+                "variants": {
+                    "0": {
+                        "isDefault": true,
+                        "variantSlug": "moviesAutoPlayback=default"
+                    },
+                    "1": {
+                        "isDefault": false,
+                        "variantSlug": "moviesAutoPlayback=variant"
+                    }
+                }
+            },
+            "ozaNmCIoSBO3KAUuTtEaqQ": {
+                "isWebviewEnabled": true,
+                "pageRegex": [
+                    "/my-profile",
+                    "/help-centre"
+                ],
+                "variants": {
+                    "0": {
+                        "isDefault": true,
+                        "variantSlug": "ptcxHCRevamp=default"
+                    },
+                    "1": {
+                        "isDefault": false,
+                        "variantSlug": "ptcxHCRevamp=variant"
+                    }
+                }
+            },
+            "V9RuEuOzQKqaVU582SW_1g": {
+                "pageRegex": [],
+                "variants": {
+                    "0": {
+                        "isDefault": true,
+                        "variantSlug": "moviesPriceFilters=default"
+                    },
+                    "1": {
+                        "isDefault": false,
+                        "variantSlug": "moviesPriceFilters=variant"
+                    }
+                }
+            }
+        },
+        "globalBlacklistedURLs": {
+            "/explore/:path?": false
+        },
+        "globalURLData": {
+            "/:regionName?": {
+                "from": "/:regionName?",
+                "redirect": false,
+                "to": "/explore"
+            },
+            "/explore/:path?": {
+                "from": "/explore/:path?",
+                "redirect": false,
+                "to": "/:regionName?"
+            }
+        },
+        "helpAndSupport": {
+            "chatbot": true,
+            "dataBotHash": "8513b69a0e31faf711709eb265338e5cf37818af",
+            "dataBotVersion": 1,
+            "freshChat": {
+                "enabled": true,
+                "host": "https://wchat.freshchat.com",
+                "jsSrc": "https://wchat.freshchat.com/js/widget.js",
+                "token": "d4495066-37e5-4039-aacd-35281c157f01"
+            },
+            "jsSrc": "https://cdn.freshbots.ai/assets/share/js/freshbots.min.js",
+            "webViewEnable": {
+                "andVersion": 7413,
+                "iosVersion": 500
+            }
+        },
+        "isFifaFlow": false,
+        "mobileFooter": {
+            "isVisible": true,
+            "navItemsVisibility": {
+                "fanhood": true,
+                "home": true,
+                "my-profile": true
+            }
+        },
+        "offers": {
+            "isDEOffer": false
+        },
+        "ordersummary": {
+            "disableOffers": [],
+            "isBASVisible": true,
+            "isBMSCreditVisible": true,
+            "isOfferVisible": true,
+            "isOSPApplicationTypeEnable": [],
+            "isOSPVenueEnable": [
+                "ALL",
+                "BMSH"
+            ],
+            "isRbiFlow": true,
+            "offerText": {}
+        },
+        "trueClientIp": "117.214.116.6",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+        "xAppCode": ""
+    },
+    "appPromotionReducer": {
+        "appPromotionDeferredEvent": null,
+        "displayMode": null,
+        "isPwaCustomInstallSupported": false,
+        "pwaInstallStatus": false
+    },
+    "artistReducer": {
+        "buzzData": {
+            "data": [],
+            "primaryStatus": "IDLE"
+        },
+        "data": {},
+        "error": {},
+        "modalProps": {},
+        "primaryStatus": "IDLE",
+        "sessionError": {},
+        "toastMessage": ""
+    },
+    "bestOfTheYear": {
+        "error": {},
+        "landingPage": {},
+        "primaryStatus": "IDLE"
+    },
+    "bookingDetails": {
+        "animationProperties": {
+            "confirmationMessageScaleDownPeriodInSeconds": 0.5,
+            "dalayBeforeResetingBottomsheetData": 500,
+            "delayBeforeFadingInTicket": 2000,
+            "delayBeforeMovingLeft": 2000,
+            "delayBeforeShowingWidgetsInMobile": 2000,
+            "fadeInCardContentPeriodInSeconds": 0.5,
+            "fadeInConfirmationPeriod": 500,
+            "fadeInTicketPeriod": 500,
+            "fadeInWidgetPeriod": 500,
+            "shouldConfirmationFadeIn": false,
+            "shouldTicketFadeIn": false,
+            "shouldTicketMoveLeft": false,
+            "shouldWidgetsFadeIn": false,
+            "timeToMoveLeftInMS": 500,
+            "timeToMoveLeftInSeconds": 0.5,
+            "widgetCardScaleValue": 1.3
+        },
+        "feedbackFormSubmitDetails": {
+            "feedbackFormPayload": {},
+            "feedbackFormSubmit": {
+                "feedbackFormSubmitResponse": {},
+                "status": "IDLE"
+            }
+        },
+        "orderDetails": {
+            "bookingId": "",
+            "bottomSheetData": {},
+            "commonAnalytics": {},
+            "couponRedemptionData": {
+                "activationStatus": "IDLE"
+            },
+            "displayPosition": [],
+            "header": [],
+            "isGoBackEnabled": true,
+            "isInternalCardRedirection": false,
+            "isSplitTicket": false,
+            "memberId": "",
+            "primary": {
+                "status": "IDLE"
+            },
+            "redirection": {},
+            "secondaryDynamic": {
+                "status": "IDLE"
+            },
+            "secondaryStatic": {
+                "status": "IDLE"
+            },
+            "sequence": [],
+            "shouldRedirect": false,
+            "transactionId": "",
+            "widgets": {}
+        },
+        "refreshEpochMap": {}
+    },
+    "bookMyShowCredits": {
+        "bmsCashData": [],
+        "bmsCreditBalanceStatus": "IDLE",
+        "bmsLedgerData": [],
+        "bmsLedgerStatus": "IDLE",
+        "pageNumber": 0,
+        "updatedStatementHistoryData": []
+    },
+    "bookMyShowCreditsTermsAndConditions": {
+        "data": [],
+        "status": "IDLE"
+    },
+    "bulkBooking": {
+        "status": "IDLE"
+    },
+    "buzz": {
+        "articleDetails": {},
+        "blogCategories": {},
+        "blogListing": {},
+        "blogStatus": "IDLE",
+        "bookMarkStatus": false,
+        "categories": [],
+        "categoryName": "",
+        "currentFeed": {},
+        "eventWidgetData": {},
+        "feeds": [],
+        "hasNoMoreFeeds": false,
+        "hits": [],
+        "isInterestedWidget": true,
+        "isLandscapeMode": false,
+        "isShareOpen": false,
+        "isTrendingShowMore": false,
+        "pageCount": 1,
+        "rnrWidgetData": {},
+        "scrollId": "",
+        "status": "IDLE",
+        "stories": [],
+        "storyDictionary": {},
+        "swipeIndex": 0,
+        "treandingStories": {
+            "articleData": {},
+            "status": "IDLE"
+        },
+        "xdctoken": null
+    },
+    "cancellationPolicy": {
+        "data": {},
+        "errorMessage": "",
+        "isError": false,
+        "isFetching": false,
+        "isSuccess": false,
+        "venueCode": ""
+    },
+    "career": {
+        "jobApplication": {
+            "error": null,
+            "jobFormDetails": {},
+            "status": "IDLE"
+        },
+        "jobDetails": {
+            "details": null,
+            "error": null,
+            "id": null,
+            "status": "IDLE"
+        },
+        "jobFilters": {
+            "city": "",
+            "team": ""
+        },
+        "joblisting": {
+            "cities": [],
+            "error": null,
+            "isSSRError": false,
+            "jobs": [],
+            "status": "IDLE",
+            "teams": []
+        },
+        "submitJobForm": {
+            "error": null,
+            "status": "IDLE"
+        }
+    },
+    "chatbot": {
+        "activeHistoryChatsList": {},
+        "articleDetails": {},
+        "category": [],
+        "chatbotConfig": {},
+        "data": "",
+        "helpSupportData": {},
+        "isCategoryFetching": true,
+        "isError": false,
+        "isFetching": true
+    },
+    "cinemas": {
+        "data": [],
+        "isError": false,
+        "isFetching": false,
+        "searchKeyword": ""
+    },
+    "coachmark": {
+        "coachmarkImageURL": "",
+        "currentCoachmark": ""
+    },
+    "commonState": {
+        "error": null,
+        "isErrorPage": false,
+        "showConnectionError": false,
+        "showTransitionLoader": false,
+        "snackbarData": "default snackbar text",
+        "toastData": "default toast text"
+    },
+    "config": {
+        "ads": true,
+        "adsAPIEndpoint": "https://in.bookmyshow.com/api/ads/v1/fetch",
+        "bookASmileFlag": true,
+        "comingSoon": true,
+        "countryIP": "IN",
+        "deviceType": "desktop",
+        "expressPay": true,
+        "favourite": true,
+        "fnb": true,
+        "hamburgerMenu": true,
+        "isMobile": false,
+        "isPinkified": true,
+        "isUCBrowser": false,
+        "locationCheck": true,
+        "loginStrip": true,
+        "offers": true,
+        "paymentLogin": true,
+        "posterCardClick": false,
+        "reserve": true,
+        "searchCoach": true,
+        "showMyProfileLink": true,
+        "winpin": true
+    },
+    "contactUs": {
+        "data": {},
+        "error": {},
+        "status": "IDLE"
+    },
+    "cookies": {
+        "__cf_bm": "AurnAPhrvypZJCEwp35qaEIAdwddqstyef7fIX0UwTU-1679026797-0-Ae/4I5kz74L7sIQ0H/YR5qRzSzyIEZkRLVCwZRDj6SWja YWlaJbSyuJ AB10O14k86FS1yzXs OY1V3QIDu9O4=",
+        "__cfruid": "798ee6562fbaa877640bffb8e17b95c64f8b31bc-1679022226",
+        "_cc_id": "653bad8ef908146d2bb872f0907cccbe",
+        "_cfuvid": "uKdOYbDP9OoIPgkMQFJc_kr434tFOwa_gx4C.QTMC.w-1679022225806-0-604800000",
+        "_ga": "GA1.1.591428636.1677493574",
+        "_ga_84T5GTD0PC": "GS1.1.1679022226.21.1.1679026989.53.0.0",
+        "_gaexp": "GAX1.2.J-uYf1LDR76Q6vznJbnQaQ.19453.1",
+        "_gcl_au": "1.1.1312213104.1677493574",
+        "_uetvid": "f8376690bfe711ed8d90db97f7c93171",
+        "AMP_TOKEN": "$NOT_FOUND",
+        "bmsId": "1.18560513.1677434591334",
+        "panoramaId": "dc3a2e7b97a781c1d707f91dfbe316d539384fb66502e0af6c35fcf5538a60d2",
+        "panoramaId_expiry": 1679630224231,
+        "panoramaIdType": "panoIndiv",
+        "platform": {
+            "code": "WEB",
+            "version": 0
+        },
+        "preferences": {
+            "ticketType": "M-TICKET"
+        },
+        "rgn": {
+            "Lat": "18.52043",
+            "Long": "73.856744",
+            "regionCode": "PUNE",
+            "regionCodeSlug": "pune",
+            "regionName": "Pune",
+            "regionNameSlug": "pune",
+            "subCode": "",
+            "subName": ""
+        },
+        "sessionId": 1679022227639,
+        "tvc_bmscookie": "GA1.2.591428636.1677493574",
+        "tvc_bmscookie_gid": "GA1.2.260074325.1679022227",
+        "tvc_vid": 81678523854397,
+        "WZRK_G": "482fff28f6084ea1810607d4da5e2e6c",
+        "WZRK_S_RK4-47R-98KZ": {
+            "p": 6,
+            "s": 1679025324,
+            "t": 1679026983
+        }
+    },
+    "coupons": {
+        "globalState": {
+            "couponDetailsModalProps": {},
+            "postParams": {}
+        },
+        "purchase": {
+            "data": {},
+            "errorObject": {
+                "customButtonLabel": "Refresh",
+                "customDescription": "Please refresh the page and try again",
+                "customImageHeight": "180px",
+                "customImageUrl": "https://assets-in.bmscdn.com/coupon/journey/coupon-weird.png",
+                "customTitle": "Sorry, something went wrong"
+            },
+            "paginationStatus": "IDLE",
+            "status": "IDLE",
+            "transactionErrorMessage": "Something's not right here. Please try again after a while. We appreciate your patience.",
+            "transactionStatus": "IDLE",
+            "transactionSuccessMessage": ""
+        },
+        "redemption": {
+            "activationData": {},
+            "activationErrorMessage": "Something's not right here. Please try again after a while. We appreciate your patience.",
+            "activationStatus": "IDLE",
+            "couponType": "fnb",
+            "data": {},
+            "errorObject": {
+                "customButtonLabel": "Refresh",
+                "customDescription": "Please refresh the page and try again",
+                "customImageHeight": "180px",
+                "customImageUrl": "https://assets-in.bmscdn.com/coupon/journey/coupon-weird.png",
+                "customTitle": "Sorry, something went wrong"
+            },
+            "status": "IDLE"
+        }
+    },
+    "deemedLogin": {
+        "data": {},
+        "error": {},
+        "status": "IDLE"
+    },
+    "deviceList": {
+        "data": {},
+        "status": "IDLE"
+    },
+    "donation": {
+        "bookASmileData": [],
+        "error": {},
+        "status": "IDLE"
+    },
+    "experimentation": {
+        "appliedExperimentsMeta": [
+            {
+                "isDefault": false,
+                "pageRegex": [],
+                "variant": "1",
+                "variantSlug": "moviesAutoPlayback=variant"
+            }
+        ],
+        "experimentsSlug": "moviesAutoPlayback=variant"
+    },
+    "explore": {
+        "activities": {
+            "actions": null,
+            "ads": null,
+            "breadCrumbs": [],
+            "filterRoute": "",
+            "filters": null,
+            "header": {},
+            "listings": [],
+            "meta": {},
+            "pageId": null,
+            "scrollId": null,
+            "status": "IDLE",
+            "styles": {},
+            "webPageConfig": null,
+            "xDCToken": null
+        },
+        "currentPage": "movies",
+        "events": {
+            "actions": null,
+            "ads": null,
+            "breadCrumbs": [],
+            "filterRoute": "",
+            "filters": null,
+            "header": {},
+            "listings": [],
+            "meta": {},
+            "pageId": null,
+            "scrollId": null,
+            "status": "IDLE",
+            "styles": {},
+            "webPageConfig": null,
+            "xDCToken": null
+        },
+        "home": {
+            "actions": null,
+            "ads": null,
+            "breadCrumbs": [],
+            "filterRoute": "",
+            "filters": null,
+            "header": {},
+            "listings": [],
+            "meta": {},
+            "pageId": null,
+            "scrollId": null,
+            "status": "IDLE",
+            "styles": {},
+            "webPageConfig": null,
+            "xDCToken": null
+        },
+        "isStaticResponse": false,
+        "memberId": null,
+        "movies": {
+            "actions": {
+                "browseVenues": {
+                    "backgroundColor": "#DC3558",
+                    "ctaUrl": "https://in.bookmyshow.com/pune/cinemas",
+                    "iconUrl": "https://assets-in.bmscdn.com/discovery-catalog/icons/tr:w-48,h-48/location-pin-202007060447.png",
+                    "label": "Browse by Cinemas",
+                    "textColor": "#FFFFFF"
+                },
+                "filters": {
+                    "backgroundColor": "#DC3558",
+                    "iconUrl": "https://assets-in.bmscdn.com/discovery-catalog/icons/tr:w-48,h-48/filter-white-202007011722.png",
+                    "indicatorColor": "#FFFFFF"
+                },
+                "search": {
+                    "ctaUrl": "https://in.bookmyshow.com/search?cat=MT",
+                    "iconUrl": "https://assets-in.bmscdn.com/discovery-catalog/icons/tr:w-72,h-72/search-202007060430.png"
+                }
+            },
+            "ads": null,
+            "breadCrumbs": [
+                {
+                    "label": "Home",
+                    "route": "/explore/home/pune"
+                },
+                {
+                    "label": "Movies",
+                    "route": "/explore/movies-pune"
+                }
+            ],
+            "filterRoute": "/movies-pune",
+            "filters": {
+                "format": {
+                    "items": [
+                        {
+                            "code": "2D",
+                            "custom": false,
+                            "label": "2D",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "4DX",
+                            "custom": false,
+                            "label": "4DX",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "3D",
+                            "custom": false,
+                            "label": "3D",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "IMAX-2D",
+                            "custom": false,
+                            "label": "IMAX 2D",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "MX4D",
+                            "custom": false,
+                            "label": "MX4D",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        }
+                    ],
+                    "queryParam": "format",
+                    "quickFilterIndex": 5,
+                    "title": "Format"
+                },
+                "genres": {
+                    "items": [
+                        {
+                            "code": "drama",
+                            "custom": false,
+                            "label": "Drama",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "action",
+                            "custom": false,
+                            "label": "Action",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "adventure",
+                            "custom": false,
+                            "label": "Adventure",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "romantic",
+                            "custom": false,
+                            "label": "Romantic",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "thriller",
+                            "custom": false,
+                            "label": "Thriller",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "comedy",
+                            "custom": false,
+                            "label": "Comedy",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "sci-fi",
+                            "custom": false,
+                            "label": "Sci-Fi",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "crime",
+                            "custom": false,
+                            "label": "Crime",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "fantasy",
+                            "custom": false,
+                            "label": "Fantasy",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "period",
+                            "custom": false,
+                            "label": "Period",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "anime",
+                            "custom": false,
+                            "label": "Anime",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "biography",
+                            "custom": false,
+                            "label": "Biography",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "family",
+                            "custom": false,
+                            "label": "Family",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "historical",
+                            "custom": false,
+                            "label": "Historical",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "horror",
+                            "custom": false,
+                            "label": "Horror",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "musical",
+                            "custom": false,
+                            "label": "Musical",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "mystery",
+                            "custom": false,
+                            "label": "Mystery",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "psychological",
+                            "custom": false,
+                            "label": "Psychological",
+                            "quickFilter": false,
+                            "selected": false,
+                            "selection": "multiple"
+                        }
+                    ],
+                    "queryParam": "genres",
+                    "quickFilterIndex": 2,
+                    "title": "Genres"
+                },
+                "languages": {
+                    "items": [
+                        {
+                            "code": "english",
+                            "custom": false,
+                            "label": "English",
+                            "quickFilter": true,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "hindi",
+                            "custom": false,
+                            "label": "Hindi",
+                            "quickFilter": true,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "japanese",
+                            "custom": false,
+                            "label": "Japanese",
+                            "quickFilter": true,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "marathi",
+                            "custom": false,
+                            "label": "Marathi",
+                            "quickFilter": true,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "telugu",
+                            "custom": false,
+                            "label": "Telugu",
+                            "quickFilter": true,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "kannada",
+                            "custom": false,
+                            "label": "Kannada",
+                            "quickFilter": true,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "korean",
+                            "custom": false,
+                            "label": "Korean",
+                            "quickFilter": true,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "punjabi",
+                            "custom": false,
+                            "label": "Punjabi",
+                            "quickFilter": true,
+                            "selected": false,
+                            "selection": "multiple"
+                        },
+                        {
+                            "code": "tamil",
+                            "custom": false,
+                            "label": "Tamil",
+                            "quickFilter": true,
+                            "selected": false,
+                            "selection": "multiple"
+                        }
+                    ],
+                    "queryParam": "languages",
+                    "quickFilterIndex": 1,
+                    "title": "Languages"
+                }
+            },
+            "header": {
+                "actions": [
+                    {
+                        "ctaUrl": "https://in.bookmyshow.com/search?cat=MT",
+                        "iconUrl": "https://assets-in.bmscdn.com/discovery-catalog/icons/tr:w-72,h-72/search-202007060430.png",
+                        "title": "search"
+                    }
+                ],
+                "backgroundImageUrl": "",
+                "backgroundPosition": "",
+                "collapsedHeight": 0,
+                "expandedHeaderHeight": 0,
+                "expandedRatio": 0,
+                "showExpandedHeader": false,
+                "title": "Movies in Pune",
+                "translucent": false,
+                "widget": {
+                    "adtechId": "AD_MOVIE_LISTING_CAROUSEL",
+                    "styleId": "8019417050693225248",
+                    "type": "advertisement"
+                }
+            },
+            "listings": [
+                {
+                    "analytics": {
+                        "id": "coming_soon_web",
+                        "is_tvod": "",
+                        "metadata": "",
+                        "schema_version": "3.0"
+                    },
+                    "cards": [
+                        {
+                            "analytics": {
+                                "category": "movies",
+                                "display_position": 1,
+                                "event": "gtm_std_event",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "",
+                                "id": "coming_soon_web_coming-soon",
+                                "in_widget_position": 1,
+                                "is_tvod": "",
+                                "language": "",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Coming Soon",
+                                "widget_id": "COMING_SOON_WEB",
+                                "widget_title": "COMING_SOON_WEB"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/explore/upcoming-movies-pune?referrerBase=movies",
+                            "id": "9b1488c8-4c8d-481e-93d4-5f9233b1cf40",
+                            "image": {
+                                "altText": "Coming Soon",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/coming-soon-web-collection-202012090733.png"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "styleId": "-8534375317388398575",
+                            "tags": [],
+                            "text": [],
+                            "type": "vertical"
+                        }
+                    ],
+                    "horizontalSpacing": 32,
+                    "id": "COMING_SOON_WEB",
+                    "impressionAnalytics": {
+                        "category": "",
+                        "display_position": 1,
+                        "event": "gtm_allpages",
+                        "event_name": "widget_viewed",
+                        "event_type": "impression",
+                        "filtervalues": "categories=movies",
+                        "is_tvod": "",
+                        "metadata": "",
+                        "product": "movies",
+                        "schema_version": "3.0",
+                        "screen_name": "movies_listing",
+                        "widget_id": "COMING_SOON_WEB",
+                        "widget_title": "COMING_SOON_WEB"
+                    },
+                    "isSticky": false,
+                    "itemsPerRow": 1,
+                    "matchMaxCardHeight": true,
+                    "styleId": "5864819169616087217",
+                    "type": "flexbox",
+                    "verticalSpacing": 8
+                },
+                {
+                    "alignItems": "left",
+                    "cards": [
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 2,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00351091",
+                                "event_group": "EG00350272",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "drama",
+                                "id": "listing-desktop-1_eg00350272_et00351091",
+                                "in_widget_position": 1,
+                                "is_tvod": "",
+                                "language": "hindi",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Zwigato",
+                                "widget_id": "listing-desktop-1",
+                                "widget_title": "LISTING-DESKTOP-1"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/zwigato/ET00351091",
+                            "id": "EG00350272",
+                            "image": {
+                                "altText": "Zwigato",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-OS4ySyBsaWtlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00351091-buymqbanku-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Zwigato",
+                            "styleId": "listings-event-card-style",
+                            "tags": [
+                                {
+                                    "label": {
+                                        "components": [
+                                            {
+                                                "text": "PROMOTED",
+                                                "type": "text"
+                                            }
+                                        ],
+                                        "maxLines": 1,
+                                        "styleId": "-5103615806931264414"
+                                    },
+                                    "styleId": "2759634946264020090"
+                                }
+                            ],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Zwigato",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "U",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Hindi",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 2,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00319185",
+                                "event_group": "EG00318888",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "biography|drama",
+                                "id": "listing-desktop-1_eg00318888_et00319185",
+                                "in_widget_position": 2,
+                                "is_tvod": "",
+                                "language": "hindi",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Mrs. Chatterjee Vs Norway",
+                                "widget_id": "listing-desktop-1",
+                                "widget_title": "LISTING-DESKTOP-1"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/mrs-chatterjee-vs-norway/ET00319185",
+                            "id": "EG00318888",
+                            "image": {
+                                "altText": "Mrs. Chatterjee Vs Norway",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MTYuNksgbGlrZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00319185-aklbsxlqxl-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Mrs. Chatterjee Vs Norway",
+                            "styleId": "listings-event-card-style",
+                            "tags": [
+                                {
+                                    "label": {
+                                        "components": [
+                                            {
+                                                "text": "PROMOTED",
+                                                "type": "text"
+                                            }
+                                        ],
+                                        "maxLines": 1,
+                                        "styleId": "-5103615806931264414"
+                                    },
+                                    "styleId": "2759634946264020090"
+                                }
+                            ],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Mrs. Chatterjee Vs Norway",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "U",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Hindi",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 2,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00347237",
+                                "event_group": "EG00346449",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "comedy|romantic",
+                                "id": "listing-desktop-1_eg00346449_et00347237",
+                                "in_widget_position": 3,
+                                "is_tvod": "",
+                                "language": "hindi",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Tu Jhoothi Main Makkaar",
+                                "widget_id": "listing-desktop-1",
+                                "widget_title": "LISTING-DESKTOP-1"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/tu-jhoothi-main-makkaar/ET00347237",
+                            "id": "EG00346449",
+                            "image": {
+                                "altText": "Tu Jhoothi Main Makkaar",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny44LzEwICA1MS43SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00347237-wmnztybfrl-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Tu Jhoothi Main Makkaar",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Tu Jhoothi Main Makkaar",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Hindi",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 2,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00315054",
+                                "event_group": "EG00314894",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "action|crime|drama|period",
+                                "id": "listing-desktop-1_eg00314894_et00315054",
+                                "in_widget_position": 4,
+                                "is_tvod": "",
+                                "language": "kannada",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Kabzaa",
+                                "widget_id": "listing-desktop-1",
+                                "widget_title": "LISTING-DESKTOP-1"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/kabzaa/ET00315054",
+                            "id": "EG00314894",
+                            "image": {
+                                "altText": "Kabzaa",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MjI3SyBsaWtlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00315054-mfqwsxkwft-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Kabzaa",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Kabzaa",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Kannada, Marathi, Odia, Malayalam, Tamil, Hindi, Telugu",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        }
+                    ],
+                    "horizontalSpacing": 32,
+                    "id": "listing-desktop-1",
+                    "isSticky": false,
+                    "itemsPerRow": 4,
+                    "matchMaxCardHeight": false,
+                    "styleId": "widget-listings-events",
+                    "type": "flexbox",
+                    "verticalSpacing": 32
+                },
+                {
+                    "alignItems": "left",
+                    "cards": [
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 3,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00312239",
+                                "event_group": "EG00312130",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "action|adventure|fantasy",
+                                "id": "listing-desktop-2_eg00312130_et00312239",
+                                "in_widget_position": 1,
+                                "is_tvod": "",
+                                "language": "english",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Shazam! Fury of the Gods",
+                                "widget_id": "listing-desktop-2",
+                                "widget_title": "LISTING-DESKTOP-2"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/shazam-fury-of-the-gods/ET00312239",
+                            "id": "EG00312130",
+                            "image": {
+                                "altText": "Shazam! Fury of the Gods",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-NTkuMUsgbGlrZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00312239-ykgqufewgq-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Shazam! Fury of the Gods",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Shazam! Fury of the Gods",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "English, Hindi, Tamil, Telugu",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 3,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00354652",
+                                "event_group": "EG00353779",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "action|adventure|anime",
+                                "id": "listing-desktop-2_eg00353779_et00354652",
+                                "in_widget_position": 2,
+                                "is_tvod": "",
+                                "language": "japanese",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Demon Slayer: Kimetsu no Yaiba To The Swordsmith Village",
+                                "widget_id": "listing-desktop-2",
+                                "widget_title": "LISTING-DESKTOP-2"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/demon-slayer-kimetsu-no-yaiba-to-the-swordsmith-village/ET00354652",
+                            "id": "EG00353779",
+                            "image": {
+                                "altText": "Demon Slayer: Kimetsu no Yaiba To The Swordsmith Village",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-NjEuOUsgbGlrZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00354652-ppyyfncepp-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Demon Slayer: Kimetsu no Yaiba To The Swordsmith Village",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Demon Slayer: Kimetsu no Yaiba To The Swordsmith Village",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "A",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Japanese",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 3,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00122562",
+                                "event_group": "EG00098145",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "action|adventure|crime|thriller",
+                                "id": "listing-desktop-2_eg00098145_et00122562",
+                                "in_widget_position": 3,
+                                "is_tvod": "",
+                                "language": "english",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Fast X",
+                                "widget_id": "listing-desktop-2",
+                                "widget_title": "LISTING-DESKTOP-2"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/fast-x/ET00122562",
+                            "id": "EG00098145",
+                            "image": {
+                                "altText": "Fast X",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-NzYuMksgbGlrZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00122562-bzsauhafrl-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Fast X",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Fast X",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "English, Hindi, Tamil, Telugu",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 3,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00323848",
+                                "event_group": "EG00323467",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "action|thriller",
+                                "id": "listing-desktop-2_eg00323467_et00323848",
+                                "in_widget_position": 4,
+                                "is_tvod": "",
+                                "language": "hindi",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Pathaan",
+                                "widget_id": "listing-desktop-2",
+                                "widget_title": "LISTING-DESKTOP-2"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/pathaan/ET00323848",
+                            "id": "EG00323467",
+                            "image": {
+                                "altText": "Pathaan",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC4yLzEwICAzNTcuM0sgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00323848-ubzjfrdvzr-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Pathaan",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Pathaan",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Hindi, Tamil, Telugu",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        }
+                    ],
+                    "horizontalSpacing": 32,
+                    "id": "listing-desktop-2",
+                    "isSticky": false,
+                    "itemsPerRow": 4,
+                    "matchMaxCardHeight": false,
+                    "styleId": "widget-listings-events",
+                    "type": "flexbox",
+                    "verticalSpacing": 32
+                },
+                {
+                    "alignItems": "left",
+                    "cards": [
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 4,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00352336",
+                                "event_group": "EG00351504",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "action|drama",
+                                "id": "listing-desktop-3_eg00351504_et00352336",
+                                "in_widget_position": 1,
+                                "is_tvod": "",
+                                "language": "marathi",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Raundal",
+                                "widget_id": "listing-desktop-3",
+                                "widget_title": "LISTING-DESKTOP-3"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/raundal/ET00352336",
+                            "id": "EG00351504",
+                            "image": {
+                                "altText": "Raundal",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS4zLzEwICAyLjFLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00352336-cgebxlqzrb-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Raundal",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Raundal",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Marathi",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 4,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00354147",
+                                "event_group": "EG00353283",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "drama|family|romantic",
+                                "id": "listing-desktop-3_eg00353283_et00354147",
+                                "in_widget_position": 2,
+                                "is_tvod": "",
+                                "language": "hindi",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Shubh Nikah",
+                                "widget_id": "listing-desktop-3",
+                                "widget_title": "LISTING-DESKTOP-3"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/shubh-nikah/ET00354147",
+                            "id": "EG00353283",
+                            "image": {
+                                "altText": "Shubh Nikah",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MS42SyBsaWtlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00354147-anlmrutwyt-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Shubh Nikah",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Shubh Nikah",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Hindi",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 4,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00337077",
+                                "event_group": "EG00336484",
+                                "event_name": "tvod_card_clicked",
+                                "event_type": "click",
+                                "genre": "action|adventure|sci-fi",
+                                "id": "listing-desktop-3_eg00336484_et00337077",
+                                "in_widget_position": 3,
+                                "is_tvod": "",
+                                "language": "english",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "bms-premier|golden-globes-2023|online-streaming|premieres-of-the-week",
+                                "title": "Everything Everywhere All at Once",
+                                "widget_id": "listing-desktop-3",
+                                "widget_title": "LISTING-DESKTOP-3"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/everything-everywhere-all-at-once/ET00337077",
+                            "id": "EG00336484",
+                            "image": {
+                                "altText": "Everything Everywhere All at Once",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC44LzEwICA2SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00337077-hpdszpszml-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Everything Everywhere All at Once",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Everything Everywhere All at Once",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "A",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "English",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 4,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00348519",
+                                "event_group": "EG00347724",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "adventure|sci-fi|thriller",
+                                "id": "listing-desktop-3_eg00347724_et00348519",
+                                "in_widget_position": 4,
+                                "is_tvod": "",
+                                "language": "english",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "65",
+                                "widget_id": "listing-desktop-3",
+                                "widget_title": "LISTING-DESKTOP-3"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/65/ET00348519",
+                            "id": "EG00347724",
+                            "image": {
+                                "altText": "65",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ni45LzEwICAzLjdLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00348519-xbjcpfxlqm-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "65",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "65",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "English, Hindi, Tamil, Telugu",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        }
+                    ],
+                    "horizontalSpacing": 32,
+                    "id": "listing-desktop-3",
+                    "isSticky": false,
+                    "itemsPerRow": 4,
+                    "matchMaxCardHeight": false,
+                    "styleId": "widget-listings-events",
+                    "type": "flexbox",
+                    "verticalSpacing": 32
+                },
+                {
+                    "alignItems": "left",
+                    "cards": [
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 5,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00352098",
+                                "event_group": "EG00351280",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "comedy|romantic",
+                                "id": "listing-desktop-4_eg00351280_et00352098",
+                                "in_widget_position": 1,
+                                "is_tvod": "",
+                                "language": "english",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "What's Love Got To Do with It?",
+                                "widget_id": "listing-desktop-4",
+                                "widget_title": "LISTING-DESKTOP-4"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/whats-love-got-to-do-with-it/ET00352098",
+                            "id": "EG00351280",
+                            "image": {
+                                "altText": "What's Love Got To Do with It?",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MS4ySyBsaWtlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00352098-mujptcpxkr-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "What's Love Got To Do with It?",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "What's Love Got To Do with It?",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "English",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 5,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00302402",
+                                "event_group": "EG00302385",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "action|adventure|comedy|sci-fi",
+                                "id": "listing-desktop-4_eg00302385_et00302402",
+                                "in_widget_position": 2,
+                                "is_tvod": "",
+                                "language": "english",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Ant-Man and the Wasp: Quantumania",
+                                "widget_id": "listing-desktop-4",
+                                "widget_title": "LISTING-DESKTOP-4"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/antman-and-the-wasp-quantumania/ET00302402",
+                            "id": "EG00302385",
+                            "image": {
+                                "altText": "Ant-Man and the Wasp: Quantumania",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC4yLzEwICAzNC44SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00302402-dzqhuytewt-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Ant-Man and the Wasp: Quantumania",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Ant-Man and the Wasp: Quantumania",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "English, Hindi, Telugu, Tamil",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 5,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00352692",
+                                "event_group": "EG00351853",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "horror|mystery|thriller",
+                                "id": "listing-desktop-4_eg00351853_et00352692",
+                                "in_widget_position": 3,
+                                "is_tvod": "",
+                                "language": "english",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Scream VI",
+                                "widget_id": "listing-desktop-4",
+                                "widget_title": "LISTING-DESKTOP-4"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/scream-vi/ET00352692",
+                            "id": "EG00351853",
+                            "image": {
+                                "altText": "Scream VI",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny45LzEwICAxLjFLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00352692-zbqxqkbjsj-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Scream VI",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Scream VI",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "A",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "English",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 5,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00343245",
+                                "event_group": "EG00342522",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "drama|romantic",
+                                "id": "listing-desktop-4_eg00342522_et00343245",
+                                "in_widget_position": 4,
+                                "is_tvod": "",
+                                "language": "marathi",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Ved",
+                                "widget_id": "listing-desktop-4",
+                                "widget_title": "LISTING-DESKTOP-4"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/ved/ET00343245",
+                            "id": "EG00342522",
+                            "image": {
+                                "altText": "Ved",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS40LzEwICA0Ni42SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00343245-urjaypsudc-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Ved",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Ved",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Marathi",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        }
+                    ],
+                    "horizontalSpacing": 32,
+                    "id": "listing-desktop-4",
+                    "isSticky": false,
+                    "itemsPerRow": 4,
+                    "matchMaxCardHeight": false,
+                    "styleId": "widget-listings-events",
+                    "type": "flexbox",
+                    "verticalSpacing": 32
+                },
+                {
+                    "alignItems": "left",
+                    "cards": [
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 6,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00342195",
+                                "event_group": "EG00341510",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "drama|romantic",
+                                "id": "listing-desktop-5_eg00341510_et00342195",
+                                "in_widget_position": 1,
+                                "is_tvod": "",
+                                "language": "punjabi",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Nigah Marda Ayi Ve",
+                                "widget_id": "listing-desktop-5",
+                                "widget_title": "LISTING-DESKTOP-5"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/nigah-marda-ayi-ve/ET00342195",
+                            "id": "EG00341510",
+                            "image": {
+                                "altText": "Nigah Marda Ayi Ve",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-NksgbGlrZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00342195-ncfwchtsny-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Nigah Marda Ayi Ve",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Nigah Marda Ayi Ve",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "U",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Punjabi",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 6,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00346771",
+                                "event_group": "EG00345987",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "drama|psychological",
+                                "id": "listing-desktop-5_eg00345987_et00346771",
+                                "in_widget_position": 2,
+                                "is_tvod": "",
+                                "language": "english",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "The Whale",
+                                "widget_id": "listing-desktop-5",
+                                "widget_title": "LISTING-DESKTOP-5"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/the-whale/ET00346771",
+                            "id": "EG00345987",
+                            "image": {
+                                "altText": "The Whale",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC44LzEwICAxLjNLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00346771-btkxntvgxr-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "The Whale",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "The Whale",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "A",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "English",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 6,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00349295",
+                                "event_group": "EG00348493",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "comedy|drama",
+                                "id": "listing-desktop-5_eg00348493_et00349295",
+                                "in_widget_position": 3,
+                                "is_tvod": "",
+                                "language": "marathi",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Vaalvi",
+                                "widget_id": "listing-desktop-5",
+                                "widget_title": "LISTING-DESKTOP-5"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/vaalvi/ET00349295",
+                            "id": "EG00348493",
+                            "image": {
+                                "altText": "Vaalvi",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS4xLzEwICA3LjFLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00349295-jqfvlwtzfg-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Vaalvi",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Vaalvi",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Marathi",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 6,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00352230",
+                                "event_group": "EG00351402",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "drama|romantic",
+                                "id": "listing-desktop-5_eg00351402_et00352230",
+                                "in_widget_position": 4,
+                                "is_tvod": "",
+                                "language": "telugu",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Phalana Abbayi Phalana Ammayi",
+                                "widget_id": "listing-desktop-5",
+                                "widget_title": "LISTING-DESKTOP-5"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/phalana-abbayi-phalana-ammayi/ET00352230",
+                            "id": "EG00351402",
+                            "image": {
+                                "altText": "Phalana Abbayi Phalana Ammayi",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-NS4ySyBsaWtlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00352230-djxzgxcvxg-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Phalana Abbayi Phalana Ammayi",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Phalana Abbayi Phalana Ammayi",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Telugu",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        }
+                    ],
+                    "horizontalSpacing": 32,
+                    "id": "listing-desktop-5",
+                    "isSticky": false,
+                    "itemsPerRow": 4,
+                    "matchMaxCardHeight": false,
+                    "styleId": "widget-listings-events",
+                    "type": "flexbox",
+                    "verticalSpacing": 32
+                },
+                {
+                    "alignItems": "left",
+                    "cards": [
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 7,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00037264",
+                                "event_group": "EG00016971",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "action|adventure|fantasy|sci-fi",
+                                "id": "listing-desktop-6_eg00016971_et00037264",
+                                "in_widget_position": 1,
+                                "is_tvod": "",
+                                "language": "english",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Avatar: The Way of Water",
+                                "widget_id": "listing-desktop-6",
+                                "widget_title": "LISTING-DESKTOP-6"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/avatar-the-way-of-water/ET00037264",
+                            "id": "EG00016971",
+                            "image": {
+                                "altText": "Avatar: The Way of Water",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC43LzEwICAyMjIuNUsgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00037264-bdbylvqqwb-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Avatar: The Way of Water",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Avatar: The Way of Water",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "English, Hindi, Tamil, Telugu, Malayalam, Kannada",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 7,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00094579",
+                                "event_group": "EG00072777",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "action|drama|historical|period",
+                                "id": "listing-desktop-6_eg00072777_et00094579",
+                                "in_widget_position": 2,
+                                "is_tvod": "",
+                                "language": "telugu",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "RRR",
+                                "widget_id": "listing-desktop-6",
+                                "widget_title": "LISTING-DESKTOP-6"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/rrr/ET00094579",
+                            "id": "EG00072777",
+                            "image": {
+                                "altText": "RRR",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC45LzEwICA5OTguM0sgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00094579-hmazsqenmf-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "RRR",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "RRR",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Telugu, Hindi, Tamil, Kannada, Malayalam",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 7,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00351873",
+                                "event_group": "EG00351050",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "drama|musical",
+                                "id": "listing-desktop-6_eg00351050_et00351873",
+                                "in_widget_position": 3,
+                                "is_tvod": "",
+                                "language": "english",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Tar",
+                                "widget_id": "listing-desktop-6",
+                                "widget_title": "LISTING-DESKTOP-6"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/tar/ET00351873",
+                            "id": "EG00351050",
+                            "image": {
+                                "altText": "Tar",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny4zLzEwICAyMTcgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00351873-dbqltdrapd-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Tar",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Tar",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "A",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "English",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 7,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00353846",
+                                "event_group": "EG00352986",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "action|drama|thriller",
+                                "id": "listing-desktop-6_eg00352986_et00353846",
+                                "in_widget_position": 4,
+                                "is_tvod": "",
+                                "language": "korean",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Decibel",
+                                "widget_id": "listing-desktop-6",
+                                "widget_title": "LISTING-DESKTOP-6"
+                            },
+                            "buttons": [],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/decibel/ET00353846",
+                            "id": "EG00352986",
+                            "image": {
+                                "altText": "Decibel",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC4xLzEwICAxMDMgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00353846-zcajmccwmy-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [],
+                            "seoText": "Decibel",
+                            "styleId": "listings-event-card-style",
+                            "tags": [],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Decibel",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Korean",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        }
+                    ],
+                    "horizontalSpacing": 32,
+                    "id": "listing-desktop-6",
+                    "isSticky": false,
+                    "itemsPerRow": 4,
+                    "matchMaxCardHeight": false,
+                    "styleId": "widget-listings-events",
+                    "type": "flexbox",
+                    "verticalSpacing": 32
+                }
+            ],
+            "meta": {
+                "analytics": {
+                    "category": "movies",
+                    "event": "gtm_allpages",
+                    "event_name": "movies_listing_viewed",
+                    "event_type": "screen_view",
+                    "filtervalues": "categories=movies",
+                    "is_tvod": "no",
+                    "product": "movies",
+                    "schema_version": "3.0",
+                    "screen_name": "movies_listing"
+                },
+                "ldSchema": {
+                    "breadcrumbSchema": {
+                        "@context": "http://schema.org",
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "item": {
+                                    "@id": "/explore/home/{RegionSlug}",
+                                    "name": "Home"
+                                },
+                                "position": 1
+                            },
+                            {
+                                "@type": "ListItem",
+                                "item": {
+                                    "@id": "/explore/movies{HyphenPrefixRegionSlug}",
+                                    "name": "Movies"
+                                },
+                                "position": 2
+                            }
+                        ]
+                    },
+                    "eventsSchema": [],
+                    "itemListSchema": {
+                        "@context": "http://schema.org",
+                        "@type": "ItemList",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00351091-buymqbanku-portrait.jpg",
+                                "name": "Zwigato",
+                                "position": 1,
+                                "url": "https://in.bookmyshow.com/pune/movies/zwigato/ET00351091"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00319185-aklbsxlqxl-portrait.jpg",
+                                "name": "Mrs. Chatterjee vs Norway",
+                                "position": 2,
+                                "url": "https://in.bookmyshow.com/pune/movies/mrs-chatterjee-vs-norway/ET00319185"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00347237-wmnztybfrl-portrait.jpg",
+                                "name": "Tu Jhoothi Main Makkaar",
+                                "position": 3,
+                                "url": "https://in.bookmyshow.com/pune/movies/tu-jhoothi-main-makkaar/ET00347237"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00315054-mfqwsxkwft-portrait.jpg",
+                                "name": "Kabzaa",
+                                "position": 4,
+                                "url": "https://in.bookmyshow.com/pune/movies/kabzaa/ET00315054"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00312239-ykgqufewgq-portrait.jpg",
+                                "name": "Shazam! Fury of the Gods",
+                                "position": 5,
+                                "url": "https://in.bookmyshow.com/pune/movies/shazam-fury-of-the-gods/ET00312239"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00354652-ppyyfncepp-portrait.jpg",
+                                "name": "Demon Slayer: Kimetsu no Yaiba To The Swordsmith Village",
+                                "position": 6,
+                                "url": "https://in.bookmyshow.com/pune/movies/demon-slayer-kimetsu-no-yaiba-to-the-swordsmith-village/ET00354652"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00122562-bzsauhafrl-portrait.jpg",
+                                "name": "Fast X",
+                                "position": 7,
+                                "url": "https://in.bookmyshow.com/pune/movies/fast-x/ET00122562"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00323848-ubzjfrdvzr-portrait.jpg",
+                                "name": "Pathaan",
+                                "position": 8,
+                                "url": "https://in.bookmyshow.com/pune/movies/pathaan/ET00323848"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00351091-buymqbanku-portrait.jpg",
+                                "name": "Zwigato",
+                                "position": 9,
+                                "url": "https://in.bookmyshow.com/pune/movies/zwigato/ET00351091"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00319185-aklbsxlqxl-portrait.jpg",
+                                "name": "Mrs. Chatterjee vs Norway",
+                                "position": 10,
+                                "url": "https://in.bookmyshow.com/pune/movies/mrs-chatterjee-vs-norway/ET00319185"
+                            }
+                        ]
+                    },
+                    "moviesSchema": []
+                },
+                "scrollExpiry": 1200
+            },
+            "pageId": null,
+            "scrollId": null,
+            "status": "RESOLVED",
+            "styles": {
+                "2759634946264020090": {
+                    "background": {
+                        "color": "#DC354B"
+                    },
+                    "border": {
+                        "cornerRadius": "2,2,2,2",
+                        "opacity": 1,
+                        "width": 0
+                    },
+                    "id": "2759634946264020090",
+                    "imageVerticalAlignment": "bottom",
+                    "padding": "2,4,2,4",
+                    "shimmer": false,
+                    "type": "tag"
+                },
+                "-5103615806931264414": {
+                    "font": "body-small",
+                    "fontColor": "#ffffff",
+                    "horizontalAlignment": "left",
+                    "id": "-5103615806931264414",
+                    "imageVerticalAlignment": "bottom",
+                    "shimmer": false,
+                    "type": "text"
+                },
+                "5864819169616087217": {
+                    "cardsContainer": {
+                        "padding": "0,0,0,0"
+                    },
+                    "headerContainer": {
+                        "margin": "0,0,8,0",
+                        "padding": "0,0,0,0"
+                    },
+                    "id": "5864819169616087217",
+                    "imageVerticalAlignment": "bottom",
+                    "padding": "16,0,32,0",
+                    "shimmer": false,
+                    "type": "widget"
+                },
+                "7086961849741629663": {
+                    "id": "7086961849741629663",
+                    "imageVerticalAlignment": "bottom",
+                    "shimmer": false,
+                    "type": "card"
+                },
+                "8019417050693225248": {
+                    "aspectRatio": 3.9,
+                    "id": "8019417050693225248",
+                    "imageVerticalAlignment": "bottom",
+                    "padding": "0,0,0,0",
+                    "shimmer": false,
+                    "type": "widget"
+                },
+                "-8534375317388398575": {
+                    "id": "-8534375317388398575",
+                    "imageContainer": {
+                        "aspectRatio": 12,
+                        "border": {
+                            "cornerRadius": "5,5,5,5",
+                            "opacity": 1,
+                            "width": 0
+                        },
+                        "shimmer": false
+                    },
+                    "imageVerticalAlignment": "bottom",
+                    "padding": "0,0,0,0",
+                    "shimmer": false,
+                    "type": "card"
+                },
+                "card-muted-text-01": {
+                    "font": "body-regular",
+                    "fontColor": "#666666",
+                    "horizontalAlignment": "left",
+                    "id": "card-muted-text-01",
+                    "imageVerticalAlignment": "bottom",
+                    "lineMargin": "0,0,4,0",
+                    "shimmer": false,
+                    "type": "text"
+                },
+                "card-title-01": {
+                    "font": "subtitle-large",
+                    "fontColor": "#000000",
+                    "horizontalAlignment": "left",
+                    "id": "card-title-01",
+                    "imageVerticalAlignment": "bottom",
+                    "lineMargin": "0,0,4,0",
+                    "shimmer": false,
+                    "type": "text"
+                },
+                "card-venue-muted-text-01": {
+                    "font": "body-large",
+                    "fontColor": "#333333",
+                    "horizontalAlignment": "left",
+                    "id": "card-venue-muted-text-01",
+                    "imageVerticalAlignment": "bottom",
+                    "lineMargin": "0,0,4,0",
+                    "shimmer": false,
+                    "type": "text"
+                },
+                "listings-event-card-style": {
+                    "id": "listings-event-card-style",
+                    "imageContainer": {
+                        "aspectRatio": 0.5882352941,
+                        "border": {
+                            "cornerRadius": "8,8,8,8",
+                            "opacity": 1,
+                            "width": 0
+                        },
+                        "margin": "0,0,16,0",
+                        "shimmer": false
+                    },
+                    "imageVerticalAlignment": "bottom",
+                    "shimmer": false,
+                    "textContainer": {
+                        "elevation": 1,
+                        "padding": "8,0,0,0"
+                    },
+                    "type": "card"
+                },
+                "widget-listings-events": {
+                    "cardsContainer": {
+                        "padding": "0,0,0,0"
+                    },
+                    "id": "widget-listings-events",
+                    "imageVerticalAlignment": "bottom",
+                    "padding": "24,0,24,0",
+                    "shimmer": false,
+                    "type": "widget"
+                },
+                "widget-scroll-cta-01": {
+                    "font": "body-regular",
+                    "fontColor": "#0378FF",
+                    "horizontalAlignment": "left",
+                    "id": "widget-scroll-cta-01",
+                    "imageVerticalAlignment": "bottom",
+                    "lineMargin": "0,0,0,0",
+                    "shimmer": false,
+                    "type": "text"
+                },
+                "widget-title-01": {
+                    "font": "subtitle-regular",
+                    "fontColor": "#222222",
+                    "horizontalAlignment": "left",
+                    "id": "widget-title-01",
+                    "imageVerticalAlignment": "bottom",
+                    "lineMargin": "4,0,0,0",
+                    "shimmer": false,
+                    "type": "text"
+                }
+            },
+            "tvodShowcase": null,
+            "webPageConfig": null,
+            "xDCToken": "aps"
+        },
+        "other": {
+            "actions": null,
+            "ads": null,
+            "breadCrumbs": [],
+            "filterRoute": "",
+            "filters": null,
+            "header": {},
+            "listings": [],
+            "meta": {},
+            "pageId": null,
+            "scrollId": null,
+            "status": "IDLE",
+            "styles": {},
+            "webPageConfig": null,
+            "xDCToken": null
+        },
+        "plays": {
+            "actions": null,
+            "ads": null,
+            "breadCrumbs": [],
+            "filterRoute": "",
+            "filters": null,
+            "header": {},
+            "listings": [],
+            "meta": {},
+            "pageId": null,
+            "scrollId": null,
+            "status": "IDLE",
+            "styles": {},
+            "webPageConfig": null,
+            "xDCToken": null
+        },
+        "sports": {
+            "actions": null,
+            "ads": null,
+            "breadCrumbs": [],
+            "filterRoute": "",
+            "filters": null,
+            "header": {},
+            "listings": [],
+            "meta": {},
+            "pageId": null,
+            "scrollId": null,
+            "status": "IDLE",
+            "styles": {},
+            "webPageConfig": null,
+            "xDCToken": null
+        },
+        "stream": {
+            "actions": null,
+            "ads": null,
+            "breadCrumbs": [],
+            "filterRoute": "",
+            "filters": null,
+            "header": {},
+            "listings": [],
+            "meta": {},
+            "pageId": null,
+            "scrollId": null,
+            "status": "IDLE",
+            "styles": {},
+            "webPageConfig": null,
+            "xDCToken": null
+        }
+    },
+    "extWallets": {
+        "errorMessage": "",
+        "isError": false,
+        "isLoading": false,
+        "isSuccess": false
+    },
+    "feedbackForm": {
+        "data": {
+            "ctaText": "Explore Now",
+            "message": "Kindly visit Homepage for more Entertainment."
+        },
+        "status": "IDLE"
+    },
+    "fifaContactUs": {
+        "data": {},
+        "error": {},
+        "status": "IDLE"
+    },
+    "filmypass": {
+        "errorProps": {
+            "message": "Please try again after a while."
+        },
+        "isAPIErrored": false,
+        "isAPIRequestLoading": false,
+        "otpProps": {
+            "resend": {
+                "status": false,
+                "timeout": 30
+            }
+        },
+        "otpType": ""
+    },
+    "fnbNonBms": {
+        "foodComboListing": {
+            "data": [],
+            "isError": false,
+            "isFetching": false
+        },
+        "venueListing": {
+            "data": [],
+            "isError": false,
+            "isFetching": false
+        }
+    },
+    "foodCombo": {
+        "banners": [],
+        "data": [],
+        "foodCategoryName": "EXCLUSIVE",
+        "isError": false,
+        "isFetching": false,
+        "seatDelivery": []
+    },
+    "giftCardListing": {
+        "data": [],
+        "error": "",
+        "status": "IDLE"
+    },
+    "giftcardSynopsis": {
+        "giftcardSynopsisData": {},
+        "status": "IDLE",
+        "transactionData": {},
+        "transactionErrorMessage": "Something's not right here. Please try again after a while. We appreciate your patience.",
+        "transactionStatus": "IDLE"
+    },
+    "giftcardVoucherBalance": {
+        "details": {
+            "amount": 0,
+            "balance": 0,
+            "expiry": "",
+            "isActive": true,
+            "isExpired": true
+        },
+        "error": "",
+        "status": "IDLE",
+        "voucherCode": ""
+    },
+    "helpCentre": {
+        "articleDetails": {
+            "data": {},
+            "status": "IDLE"
+        },
+        "articles": {
+            "data": {},
+            "status": "IDLE"
+        },
+        "chatConfig": {
+            "data": {},
+            "status": "IDLE"
+        },
+        "conversations": {
+            "data": {},
+            "status": "IDLE"
+        },
+        "feedback": {
+            "data": {},
+            "status": "IDLE"
+        },
+        "home": {
+            "data": {},
+            "isLoggedIn": false,
+            "status": "IDLE"
+        },
+        "issueTicketDetails": {
+            "data": {},
+            "status": "IDLE"
+        },
+        "missingTicketAttempt": {
+            "data": {},
+            "status": "IDLE"
+        },
+        "missingTicketList": {
+            "data": {},
+            "status": "IDLE"
+        },
+        "otp": {
+            "data": {},
+            "status": "IDLE"
+        },
+        "queries": {
+            "data": {},
+            "status": "IDLE"
+        },
+        "resendConfirmation": {
+            "data": {},
+            "status": "IDLE"
+        },
+        "topics": {
+            "data": {},
+            "status": "IDLE"
+        }
+    },
+    "iedb": {
+        "reviewRating": {
+            "hashTagsData": null,
+            "hideReviewModal": false,
+            "isFetchingHashTags": false,
+            "isRequestingUserReview": false,
+            "isSaveReviewRatingRequesting": false,
+            "reviewRatingResponse": {},
+            "showPostWatchReviewModal": {}
+        }
+    },
+    "inviteFriends": {
+        "isError": false,
+        "isFetching": false,
+        "isSuccess": false,
+        "response": null
+    },
+    "leadgenForm": {
+        "errorProps": {
+            "message": "Please try again after a while."
+        },
+        "leadgenFormData": {},
+        "otpProps": {
+            "resend": {
+                "status": false,
+                "timeout": 30
+            }
+        },
+        "otpType": "",
+        "status": "IDLE"
+    },
+    "login": {
+        "applePostParams": {},
+        "googleSdkInit": false,
+        "isError": false,
+        "isLoading": false,
+        "isLoggedIn": false,
+        "isLoyaltyLogin": false,
+        "loginData": null,
+        "loginUrlWithReferer": null,
+        "mobileNumber": null,
+        "redirectToOrderSummary": false
+    },
+    "modals": {
+        "modals": []
+    },
+    "movieVoucher": {
+        "movieVoucherData": {
+            "data": [],
+            "error": null,
+            "status": "IDLE"
+        },
+        "VoucherTrans": {
+            "error": null,
+            "status": "IDLE",
+            "transData": {}
+        }
+    },
+    "myProfile": {
+        "cancelBooking": {
+            "cancellationDetails": null,
+            "cancelTickets": null,
+            "error": null,
+            "errorMessage": null,
+            "isCancelling": false,
+            "isError": false,
+            "isFetching": false,
+            "isSuccess": false,
+            "showCancellationSuccess": false
+        },
+        "dashboard": {
+            "data": {},
+            "error": false,
+            "loading": false
+        },
+        "editProfile": {
+            "data": null,
+            "inputParamsUpdated": true,
+            "isError": false,
+            "isFetching": false,
+            "isSuccess": false
+        },
+        "infoContent": {
+            "data": {},
+            "errorObj": null,
+            "loading": true
+        },
+        "profilePic": {
+            "data": {},
+            "status": "IDLE"
+        },
+        "purchaseHistory": {
+            "couponData": {},
+            "isError": false,
+            "isFetching": false,
+            "isSuccess": false,
+            "purchaseHistoryData": {},
+            "resendEmail": null,
+            "transferredTickets": {
+                "activeTransfers": [],
+                "successfulTransfers": []
+            },
+            "updatedBarcodeObject": null
+        },
+        "verifyPii": {
+            "errorData": {},
+            "isError": false,
+            "isFetching": false,
+            "successData": {}
+        }
+    },
+    "offerListings": {
+        "isMobileDevice": false,
+        "offerCategories": [],
+        "offerListingsData": [],
+        "status": "IDLE"
+    },
+    "offers": {
+        "offerDetails": null,
+        "offerTypes": []
+    },
+    "offerSynopsis": {
+        "isMobileDevice": false,
+        "offerSynopsisData": [],
+        "status": "IDLE"
+    },
+    "orderSummary": {
+        "AddChgs": [],
+        "basResponse": null,
+        "CancellationPolicy": [],
+        "CouponDetails": [],
+        "disclaimer": {},
+        "Inventory": [],
+        "isBASAddError": false,
+        "isBASAdding": false,
+        "isBASRemoved": true,
+        "isBASRemoving": false,
+        "isCouponRemoveError": false,
+        "isCouponRemoving": false,
+        "isError": false,
+        "isFetching": false,
+        "OrderCash": [],
+        "paymentFailure": {},
+        "promoCodeValidationResponse": {
+            "errorMsg": "",
+            "hasError": false,
+            "isFetching": false,
+            "showErrorPopUp": false
+        },
+        "promos": [],
+        "reserveSeats": {
+            "data": {},
+            "set": false
+        },
+        "SeatInfo": [],
+        "SessionOrder": [
+            null
+        ],
+        "stateList": [],
+        "suggestedItems": [],
+        "Summary": [
+            {
+                "Order_mnyTxnAmount": 0
+            }
+        ],
+        "tips": [],
+        "unsetOffer": {
+            "offerState": false,
+            "response": {}
+        }
+    },
+    "orderSummaryFnb": {
+        "isError": false,
+        "isFetching": false
+    },
+    "otp": {
+        "callerInfo": {},
+        "isError": false,
+        "isRequesting": false,
+        "otpSent": false,
+        "otpVerified": false,
+        "params": {},
+        "sendParams": {},
+        "type": "activate-wallet",
+        "verifyparams": {},
+        "verifyResponse": {
+            "data": {}
+        }
+    },
+    "ottPlatforms": {
+        "error": false,
+        "errorMessage": "",
+        "itemData": {},
+        "loading": false,
+        "synopsisData": {}
+    },
+    "payments": {
+        "amountPayable": 0,
+        "appCode": "",
+        "appliedOffer": "",
+        "cardCVCValid": false,
+        "cardExpiryValid": false,
+        "cardNameValid": false,
+        "cardNoValid": false,
+        "checkSigninVerification": false,
+        "cinepolisBalanceAmount": "",
+        "cinepolisMessage": "",
+        "data": null,
+        "errorRequestingCinepolisBalance": false,
+        "genericFlow": {
+            "sendOtpResponse": {},
+            "validateInstrument": {
+                "isError": false,
+                "isLoading": false
+            },
+            "verifyOtpResponse": {}
+        },
+        "getAppliedGVs": [],
+        "isError": false,
+        "isErrorUserPayDetails": false,
+        "isFetching": false,
+        "isFetchingUserPayDetails": false,
+        "isGVChecked": false,
+        "isPaying": false,
+        "isRequestingCinepolisBalance": false,
+        "isSuccess": false,
+        "isWalletChecked": false,
+        "isWalletCheckFailed": false,
+        "isWalletCheckRequesting": false,
+        "isWalletVisible": true,
+        "isZeroPaySuccessful": false,
+        "mpidApplied": [],
+        "orderSummaryAppConfig": [],
+        "orderSummaryBookingId": "",
+        "paybackDetails": {
+            "paybackRedeem": {
+                "currentBalance": 0,
+                "errorMessage": "",
+                "isError": false,
+                "paybackAppliedData": {}
+            },
+            "twidDetails": {
+                "isError": false,
+                "twidEligibilityDetails": {}
+            }
+        },
+        "paymentOptions": [],
+        "paymentSubOptionsSearchText": "",
+        "paymentSummary": [],
+        "selectedPaymentSubOptions": [],
+        "shouldCallOrderSummary": false,
+        "showFullLoading": true,
+        "successValidatingCinepolisBalance": false,
+        "totalAmount": 0,
+        "userPayDetails": null,
+        "walletBalance": 0,
+        "walletDeductedAmount": 0
+    },
+    "playCreditCard": {
+        "addressValidate": {
+            "data": {},
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "bookSlot": {
+            "data": {},
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "cardManagement": {
+            "data": {},
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "eligiblityCheck": {
+            "data": {},
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "generateOTP": {
+            "data": {},
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "getAllOffers": {
+            "data": {},
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "getAppointment": {
+            "data": {},
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "getAppState": {
+            "data": {},
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "getVKYCOptions": {
+            "data": {},
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "global": {
+            "ad": ""
+        },
+        "initiateKYC": {
+            "data": {},
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "landingPage": {
+            "data": {},
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "pinCode": {
+            "data": {},
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "submitApplication": {
+            "data": {},
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "submitInterestForm": {
+            "data": {},
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "validateOTP": {
+            "data": {},
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "validatePAN": {
+            "data": {},
+            "error": null,
+            "loading": false,
+            "success": false
+        }
+    },
+    "pvrLoyaltyReducer": {
+        "data": {},
+        "status": "IDLE"
+    },
+    "qrServiceData": {
+        "error": false,
+        "redirectionURL": ""
+    },
+    "quickBookShowtimesStore": {
+        "data": {},
+        "error": {},
+        "modalProps": {},
+        "primaryStatus": "IDLE",
+        "secondaryStatus": "IDLE",
+        "selectedDateCode": "",
+        "sessionError": {},
+        "tertiaryStatus": "IDLE",
+        "toastMessage": ""
+    },
+    "quickPay": {
+        "listData": {
+            "CV": [],
+            "EWFC": [],
+            "GV": [],
+            "NB": [],
+            "RPPB": []
+        },
+        "status": "IDLE"
+    },
+    "regions": {
+        "currentRegion": null,
+        "geoLocationErrorMessage": null,
+        "isError": false,
+        "isFetching": false,
+        "isFetchingLocation": false,
+        "searchKey": ""
+    },
+    "rewards": {
+        "discoverRewards": {
+            "data": {
+                "campaigns": []
+            },
+            "isDiscoverRewardsError": false,
+            "isDiscoverRewardsFetching": true,
+            "isDiscoverRewardsSuccess": false,
+            "isSSRData": false
+        },
+        "myRewards": {
+            "data": {
+                "scratched": [],
+                "unscratched": []
+            },
+            "isMyRewardsError": false,
+            "isMyRewardsFetching": false,
+            "isMyRewardsSuccess": false,
+            "isSSRData": false
+        },
+        "redeemReward": {
+            "data": [],
+            "isRedeemRewardError": false,
+            "isRedeemRewardFetching": false,
+            "isRedeemRewardSuccess": false,
+            "isSSRData": false
+        },
+        "updateReward": {
+            "isUpdateRewardError": false,
+            "isUpdateRewardFetching": false,
+            "isUpdateRewardSuccess": false,
+            "updateReward": []
+        }
+    },
+    "search": {
+        "appliedCategories": [],
+        "categories": [],
+        "extras": [],
+        "isFetchingQuickSearch": false,
+        "quickSearchResults": {},
+        "trending": []
+    },
+    "seatLayout": {
+        "data": [],
+        "isFetchingLayout": false,
+        "lngTransactionIdentifier": 0,
+        "metaData": [],
+        "quantity": 2,
+        "reserve": false,
+        "seatClickedOn": {
+            "seats": []
+        },
+        "selectedSeats": {
+            "seats": []
+        },
+        "settingSeat": false,
+        "ticketPrice": 0
+    },
+    "seo": {},
+    "settings": {
+        "isError": false,
+        "isFetching": false,
+        "isSuccess": false,
+        "values": {}
+    },
+    "shareOption": {
+        "close": null,
+        "shareUrl": "",
+        "title": ""
+    },
+    "showtimes": {
+        "hasSSRfailed": false,
+        "isShowdateFetching": true,
+        "searchText": ""
+    },
+    "showtimesFilter": {
+        "appliedPriceFilter": {
+            "showtimesByEvent": [],
+            "showtimesByVenue": []
+        },
+        "appliedTimeFilter": {
+            "showtimesByEvent": [],
+            "showtimesByVenue": []
+        },
+        "filterDate": "",
+        "type": "showtimesByEvent"
+    },
+    "snackbar": {
+        "autoHideDuration": 5000,
+        "element": null,
+        "handleOnClose": null,
+        "horizontalPosition": "center",
+        "isVisible": false,
+        "verticalPosition": "bottom"
+    },
+    "splitTicket": {
+        "formData": {
+            "data": null,
+            "error": null,
+            "status": "IDLE"
+        },
+        "initData": {
+            "bookingId": "",
+            "error": null,
+            "isEnabled": true,
+            "isSSRError": false,
+            "mobile": "",
+            "name": "",
+            "splitTicketDetails": [],
+            "status": "IDLE",
+            "ticketQuantity": "",
+            "transactionId": ""
+        }
+    },
+    "staticContent": {},
+    "staticPolicy": {
+        "policy": {},
+        "status": "IDLE"
+    },
+    "streamDisclaimers": {
+        "headerData": {},
+        "sections": [],
+        "status": "IDLE",
+        "type": ""
+    },
+    "streamExplainer": {},
+    "streamLibraryReducer": {
+        "streamLibrary": {
+            "data": {},
+            "error": false,
+            "errorMessage": "",
+            "loading": true
+        },
+        "transactionDetail": {
+            "data": {},
+            "error": false,
+            "errorMessage": "",
+            "loading": true
+        }
+    },
+    "synopsisStore": {
+        "interested": {
+            "ctaStyle": "",
+            "isInterested": "",
+            "postCtaText": "",
+            "postSubtitle": "",
+            "postTitle": "",
+            "preCtaText": "",
+            "preSubtitle": "",
+            "preTitle": ""
+        },
+        "mediaPlayer": {
+            "error": {},
+            "fairplayCertificate": "",
+            "heartbeatAPI": {},
+            "license": "",
+            "mode": "",
+            "playBackTime": 0,
+            "playUrl": "",
+            "status": "IDLE",
+            "title": ""
+        },
+        "multiMedia": {
+            "hasMultipleMedia": false,
+            "hasOnlyPoster": false,
+            "multiMediaData": {},
+            "singleVideoDetails": {}
+        },
+        "ratingAndReviews": {
+            "criticPageNum": 1,
+            "criticReviews": [],
+            "currentHashTagSelected": "",
+            "error": {},
+            "hasRated": false,
+            "initReviewAndRatingData": {},
+            "insertReviewAndRatingData": {},
+            "movieReviewData": {},
+            "rating": 0,
+            "reactionOnReview": {
+                "data": {},
+                "error": {},
+                "status": "IDLE"
+            },
+            "rnrSection": {},
+            "singleReview": [],
+            "status": "IDLE",
+            "totalCriticReviews": 0,
+            "totalUserReviews": 0,
+            "userPageNum": 1,
+            "userRating": 0,
+            "userReviewDetail": {},
+            "userReviews": [],
+            "userSpecificReview": {}
+        },
+        "report": {
+            "message": "",
+            "status": "IDLE"
+        },
+        "synopsis": {
+            "analytics": {},
+            "bottomSheetProps": {},
+            "error": {},
+            "eventCensor": "",
+            "eventCode": "",
+            "eventDefaultCode": "",
+            "eventGenre": "",
+            "eventGroupCode": "",
+            "eventGroupName": "",
+            "eventImageCode": "",
+            "eventName": "",
+            "eventType": "",
+            "globalStyle": {},
+            "header": {},
+            "pageCta": [],
+            "popupData": {},
+            "primaryDynamicStatus": "IDLE",
+            "primaryStaticStatus": "IDLE",
+            "secondaryDynamicStatus": "IDLE",
+            "secondaryStatus": "IDLE",
+            "seo": {},
+            "tvod": {}
+        },
+        "synopsisRender": {
+            "bannerWidget": {},
+            "breadcrumbList": [],
+            "desktopAdtech": {},
+            "initialWidgetRenderList": [],
+            "initialWidgetsBasedSecondaryDataList": [],
+            "lazyWidgetRenderList": [],
+            "primaryWidgetHashmap": {},
+            "secondaryWidgetHashmap": {},
+            "tvodMobileBanner": {},
+            "widgetsOrder": []
+        }
+    },
+    "ticketDetails": {
+        "error": {},
+        "status": "IDLE",
+        "ticketData": {}
+    },
+    "tvodLogin": {
+        "errorData": {},
+        "isError": false,
+        "isFetching": false,
+        "successData": {}
+    },
+    "venueShowcase": {
+        "error": {},
+        "isVenueShowcaseFailure": false,
+        "isVenueShowcaseFetching": false,
+        "isVenueShowcaseSuccess": false,
+        "venueShowcaseDetails": {}
+    },
+    "venueShowtimes": {
+        "errorObj": {},
+        "searchText": ""
+    },
+    "voice": {
+        "resultData": {},
+        "resultMessage": "",
+        "resultStatus": "IDLE",
+        "suggestionList": [],
+        "suggestionMessage": "",
+        "suggestionStatus": "IDLE"
+    },
+    "voucher": {
+        "status": "IDLE",
+        "voucherData": {}
+    },
+    "withDesktopLayout": {
+        "pageName": "all",
+        "regionChangeCallback": null,
+        "setSidebarOpen": null,
+        "signInCallback": null,
+        "signOutCallback": null
+    },
+    "youtube": {
+        "canPauseAllVideos": false,
+        "currentPlayingVideoID": "",
+        "isAPIloaded": false
+    }
+}

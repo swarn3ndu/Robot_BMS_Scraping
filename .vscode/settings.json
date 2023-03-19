@@ -1,0 +1,11 @@
+{
+    "robocorp.autoSetPythonExtensionInterpreter": false,
+    "isort.interpreter": [
+        "C:\\Users\\swarn\\DEV\\Gayaan.Ai_BMSScraper\\venv\\Lib\\site-packages"
+    ],
+    "python.autoComplete.extraPaths": [],
+    "python.analysis.extraPaths": [],
+    "githubPullRequests.remotes": [
+        "upstream"
+    ]
+}

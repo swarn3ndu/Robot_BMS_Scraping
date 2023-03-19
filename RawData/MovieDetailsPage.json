@@ -1,0 +1,4073 @@
+{
+    "aboutRewards": {
+        "backgroundColors": [
+        ],
+        "data": [
+        ],
+        "isError": false,
+        "isFetching": false,
+        "isSuccess": false
+    },
+    "ads": {
+        "adDetails": [
+        ],
+        "errorMsg": "",
+        "isError": false,
+        "isLoading": false
+    },
+    "appConfig": {
+        "apiRetryIntervals": {
+            "longUrl": [
+                2
+            ],
+            "synopsisDynamic": [
+                1,
+                2
+            ],
+            "synopsisStatic": [
+                2
+            ]
+        },
+        "appCode": "WEBV2",
+        "deviceType": "desktop",
+        "discovery": {
+            "isMovieRatingsModalVisible": true
+        },
+        "experiments": {
+            "4_tMEBqHRnS9YZ3yTWxYHg": {
+                "pageRegex": [
+                ],
+                "variants": {
+                    "0": {
+                        "isDefault": true,
+                        "variantSlug": "adtechPVRPrivBanner=default"
+                    },
+                    "1": {
+                        "isDefault": false,
+                        "variantSlug": "adtechPVRPrivBanner=variant"
+                    }
+                }
+            },
+            "AlugYF7YS7argUiX-NBnkw": {
+                "pageRegex": [
+                ],
+                "variants": {
+                    "0": {
+                        "isDefault": true,
+                        "variantSlug": "moviesCoachmark=default"
+                    },
+                    "1": {
+                        "isDefault": false,
+                        "variantSlug": "moviesCoachmark=variant"
+                    }
+                }
+            },
+            "ITNsGQBcTHCwEMWHq6hC7g": {
+                "pageRegex": [
+                    "/explore/"
+                ],
+                "variants": {
+                    "0": {
+                        "isDefault": true,
+                        "variantSlug": "exploreBottomNav=default"
+                    },
+                    "1": {
+                        "isDefault": false,
+                        "variantSlug": "exploreBottomNav=variant"
+                    }
+                }
+            },
+            "J-uYf1LDR76Q6vznJbnQaQ": {
+                "pageRegex": [
+                ],
+                "variants": {
+                    "0": {
+                        "isDefault": true,
+                        "variantSlug": "moviesAutoPlayback=default"
+                    },
+                    "1": {
+                        "isDefault": false,
+                        "variantSlug": "moviesAutoPlayback=variant"
+                    }
+                }
+            },
+            "ozaNmCIoSBO3KAUuTtEaqQ": {
+                "isWebviewEnabled": true,
+                "pageRegex": [
+                    "/my-profile",
+                    "/help-centre"
+                ],
+                "variants": {
+                    "0": {
+                        "isDefault": true,
+                        "variantSlug": "ptcxHCRevamp=default"
+                    },
+                    "1": {
+                        "isDefault": false,
+                        "variantSlug": "ptcxHCRevamp=variant"
+                    }
+                }
+            },
+            "V9RuEuOzQKqaVU582SW_1g": {
+                "pageRegex": [
+                ],
+                "variants": {
+                    "0": {
+                        "isDefault": true,
+                        "variantSlug": "moviesPriceFilters=default"
+                    },
+                    "1": {
+                        "isDefault": false,
+                        "variantSlug": "moviesPriceFilters=variant"
+                    }
+                }
+            }
+        },
+        "globalBlacklistedURLs": {
+            "/explore/:path?": false
+        },
+        "globalURLData": {
+            "/:regionName?": {
+                "from": "/:regionName?",
+                "redirect": false,
+                "to": "/explore"
+            },
+            "/explore/:path?": {
+                "from": "/explore/:path?",
+                "redirect": false,
+                "to": "/:regionName?"
+            }
+        },
+        "helpAndSupport": {
+            "chatbot": true,
+            "dataBotHash": "8513b69a0e31faf711709eb265338e5cf37818af",
+            "dataBotVersion": 1,
+            "freshChat": {
+                "enabled": true,
+                "host": "https://wchat.freshchat.com",
+                "jsSrc": "https://wchat.freshchat.com/js/widget.js",
+                "token": "d4495066-37e5-4039-aacd-35281c157f01"
+            },
+            "jsSrc": "https://cdn.freshbots.ai/assets/share/js/freshbots.min.js",
+            "webViewEnable": {
+                "andVersion": 7413,
+                "iosVersion": 500
+            }
+        },
+        "isFifaFlow": false,
+        "mobileFooter": {
+            "isVisible": true,
+            "navItemsVisibility": {
+                "fanhood": true,
+                "home": true,
+                "my-profile": true
+            }
+        },
+        "offers": {
+            "isDEOffer": false
+        },
+        "ordersummary": {
+            "disableOffers": [
+            ],
+            "isBASVisible": true,
+            "isBMSCreditVisible": true,
+            "isOfferVisible": true,
+            "isOSPApplicationTypeEnable": [
+            ],
+            "isOSPVenueEnable": [
+                "ALL",
+                "BMSH"
+            ],
+            "isRbiFlow": true,
+            "offerText": {
+            }
+        },
+        "trueClientIp": "117.214.116.6",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+        "xAppCode": ""
+    },
+    "appPromotionReducer": {
+        "appPromotionDeferredEvent": null,
+        "displayMode": null,
+        "isPwaCustomInstallSupported": false,
+        "pwaInstallStatus": false
+    },
+    "artistReducer": {
+        "buzzData": {
+            "data": [
+            ],
+            "primaryStatus": "IDLE"
+        },
+        "data": {
+        },
+        "error": {
+        },
+        "modalProps": {
+        },
+        "primaryStatus": "IDLE",
+        "sessionError": {
+        },
+        "toastMessage": ""
+    },
+    "bestOfTheYear": {
+        "error": {
+        },
+        "landingPage": {
+        },
+        "primaryStatus": "IDLE"
+    },
+    "bookingDetails": {
+        "animationProperties": {
+            "confirmationMessageScaleDownPeriodInSeconds": 0.5,
+            "dalayBeforeResetingBottomsheetData": 500,
+            "delayBeforeFadingInTicket": 2000,
+            "delayBeforeMovingLeft": 2000,
+            "delayBeforeShowingWidgetsInMobile": 2000,
+            "fadeInCardContentPeriodInSeconds": 0.5,
+            "fadeInConfirmationPeriod": 500,
+            "fadeInTicketPeriod": 500,
+            "fadeInWidgetPeriod": 500,
+            "shouldConfirmationFadeIn": false,
+            "shouldTicketFadeIn": false,
+            "shouldTicketMoveLeft": false,
+            "shouldWidgetsFadeIn": false,
+            "timeToMoveLeftInMS": 500,
+            "timeToMoveLeftInSeconds": 0.5,
+            "widgetCardScaleValue": 1.3
+        },
+        "feedbackFormSubmitDetails": {
+            "feedbackFormPayload": {
+            },
+            "feedbackFormSubmit": {
+                "feedbackFormSubmitResponse": {
+                },
+                "status": "IDLE"
+            }
+        },
+        "orderDetails": {
+            "bookingId": "",
+            "bottomSheetData": {
+            },
+            "commonAnalytics": {
+            },
+            "couponRedemptionData": {
+                "activationStatus": "IDLE"
+            },
+            "displayPosition": [
+            ],
+            "header": [
+            ],
+            "isGoBackEnabled": true,
+            "isInternalCardRedirection": false,
+            "isSplitTicket": false,
+            "memberId": "",
+            "primary": {
+                "status": "IDLE"
+            },
+            "redirection": {
+            },
+            "secondaryDynamic": {
+                "status": "IDLE"
+            },
+            "secondaryStatic": {
+                "status": "IDLE"
+            },
+            "sequence": [
+            ],
+            "shouldRedirect": false,
+            "transactionId": "",
+            "widgets": {
+            }
+        },
+        "refreshEpochMap": {
+        }
+    },
+    "bookMyShowCredits": {
+        "bmsCashData": [
+        ],
+        "bmsCreditBalanceStatus": "IDLE",
+        "bmsLedgerData": [
+        ],
+        "bmsLedgerStatus": "IDLE",
+        "pageNumber": 0,
+        "updatedStatementHistoryData": [
+        ]
+    },
+    "bookMyShowCreditsTermsAndConditions": {
+        "data": [
+        ],
+        "status": "IDLE"
+    },
+    "bulkBooking": {
+        "status": "IDLE"
+    },
+    "buzz": {
+        "articleDetails": {
+        },
+        "blogCategories": {
+        },
+        "blogListing": {
+        },
+        "blogStatus": "IDLE",
+        "bookMarkStatus": false,
+        "categories": [
+        ],
+        "categoryName": "",
+        "currentFeed": {
+        },
+        "eventWidgetData": {
+        },
+        "feeds": [
+        ],
+        "hasNoMoreFeeds": false,
+        "hits": [
+        ],
+        "isInterestedWidget": true,
+        "isLandscapeMode": false,
+        "isShareOpen": false,
+        "isTrendingShowMore": false,
+        "pageCount": 1,
+        "rnrWidgetData": {
+        },
+        "scrollId": "",
+        "status": "IDLE",
+        "stories": [
+        ],
+        "storyDictionary": {
+        },
+        "swipeIndex": 0,
+        "treandingStories": {
+            "articleData": {
+            },
+            "status": "IDLE"
+        },
+        "xdctoken": null
+    },
+    "cancellationPolicy": {
+        "data": {
+        },
+        "errorMessage": "",
+        "isError": false,
+        "isFetching": false,
+        "isSuccess": false,
+        "venueCode": ""
+    },
+    "career": {
+        "jobApplication": {
+            "error": null,
+            "jobFormDetails": {
+            },
+            "status": "IDLE"
+        },
+        "jobDetails": {
+            "details": null,
+            "error": null,
+            "id": null,
+            "status": "IDLE"
+        },
+        "jobFilters": {
+            "city": "",
+            "team": ""
+        },
+        "joblisting": {
+            "cities": [
+            ],
+            "error": null,
+            "isSSRError": false,
+            "jobs": [
+            ],
+            "status": "IDLE",
+            "teams": [
+            ]
+        },
+        "submitJobForm": {
+            "error": null,
+            "status": "IDLE"
+        }
+    },
+    "chatbot": {
+        "activeHistoryChatsList": {
+        },
+        "articleDetails": {
+        },
+        "category": [
+        ],
+        "chatbotConfig": {
+        },
+        "data": "",
+        "helpSupportData": {
+        },
+        "isCategoryFetching": true,
+        "isError": false,
+        "isFetching": true
+    },
+    "cinemas": {
+        "data": [
+        ],
+        "isError": false,
+        "isFetching": false,
+        "searchKeyword": ""
+    },
+    "coachmark": {
+        "coachmarkImageURL": "",
+        "currentCoachmark": ""
+    },
+    "commonState": {
+        "error": null,
+        "isErrorPage": false,
+        "showConnectionError": false,
+        "showTransitionLoader": false,
+        "snackbarData": "default snackbar text",
+        "toastData": "default toast text"
+    },
+    "config": {
+        "ads": true,
+        "adsAPIEndpoint": "https://in.bookmyshow.com/api/ads/v1/fetch",
+        "bookASmileFlag": true,
+        "comingSoon": true,
+        "countryIP": "IN",
+        "deviceType": "desktop",
+        "expressPay": true,
+        "favourite": true,
+        "fnb": true,
+        "hamburgerMenu": true,
+        "isMobile": false,
+        "isPinkified": true,
+        "isUCBrowser": false,
+        "locationCheck": true,
+        "loginStrip": true,
+        "offers": true,
+        "paymentLogin": true,
+        "posterCardClick": false,
+        "reserve": true,
+        "searchCoach": true,
+        "showMyProfileLink": true,
+        "winpin": true
+    },
+    "contactUs": {
+        "data": {
+        },
+        "error": {
+        },
+        "status": "IDLE"
+    },
+    "cookies": {
+        "__cf_bm": "ozr3mRXrxxbUijx44AA56.EvE1c0AA0H3uq7ZUEeCVY-1679023549-0-AQ8KBaYXD4FIXgT Q0Hs563/Wuw0MOU3VZLOWKKOvuBP/dBP9bycnNK1tgH9cJ1QHACMdAHMWOXxTHxuvenhlIQ=",
+        "__cfruid": "798ee6562fbaa877640bffb8e17b95c64f8b31bc-1679022226",
+        "_cc_id": "653bad8ef908146d2bb872f0907cccbe",
+        "_cfuvid": "uKdOYbDP9OoIPgkMQFJc_kr434tFOwa_gx4C.QTMC.w-1679022225806-0-604800000",
+        "_ga": "GA1.1.591428636.1677493574",
+        "_ga_84T5GTD0PC": "GS1.1.1679022226.21.1.1679023556.53.0.0",
+        "_gaexp": "GAX1.2.J-uYf1LDR76Q6vznJbnQaQ.19453.1",
+        "_gat_UA-27207583-8": 1,
+        "_gcl_au": "1.1.1312213104.1677493574",
+        "_uetvid": "f8376690bfe711ed8d90db97f7c93171",
+        "AMP_TOKEN": "$NOT_FOUND",
+        "bmsId": "1.18560513.1677434591334",
+        "panoramaId": "dc3a2e7b97a781c1d707f91dfbe316d539384fb66502e0af6c35fcf5538a60d2",
+        "panoramaId_expiry": 1679628350817,
+        "panoramaIdType": "panoIndiv",
+        "platform": {
+            "code": "WEB",
+            "version": 0
+        },
+        "preferences": {
+            "ticketType": "M-TICKET"
+        },
+        "rgn": {
+            "Lat": "18.52043",
+            "Long": "73.856744",
+            "regionCode": "PUNE",
+            "regionCodeSlug": "pune",
+            "regionName": "Pune",
+            "regionNameSlug": "pune",
+            "subCode": "",
+            "subName": ""
+        },
+        "sessionId": 1679022227639,
+        "tvc_bmscookie": "GA1.2.591428636.1677493574",
+        "tvc_bmscookie_gid": "GA1.2.260074325.1679022227",
+        "tvc_vid": 81678523854397,
+        "WZRK_G": "482fff28f6084ea1810607d4da5e2e6c",
+        "WZRK_S_RK4-47R-98KZ": {
+            "s": 1679023550,
+            "t": 1679023550
+        }
+    },
+    "coupons": {
+        "globalState": {
+            "couponDetailsModalProps": {
+            },
+            "postParams": {
+            }
+        },
+        "purchase": {
+            "data": {
+            },
+            "errorObject": {
+                "customButtonLabel": "Refresh",
+                "customDescription": "Please refresh the page and try again",
+                "customImageHeight": "180px",
+                "customImageUrl": "https://assets-in.bmscdn.com/coupon/journey/coupon-weird.png",
+                "customTitle": "Sorry, something went wrong"
+            },
+            "paginationStatus": "IDLE",
+            "status": "IDLE",
+            "transactionErrorMessage": "Something's not right here. Please try again after a while. We appreciate your patience.",
+            "transactionStatus": "IDLE",
+            "transactionSuccessMessage": ""
+        },
+        "redemption": {
+            "activationData": {
+            },
+            "activationErrorMessage": "Something's not right here. Please try again after a while. We appreciate your patience.",
+            "activationStatus": "IDLE",
+            "couponType": "fnb",
+            "data": {
+            },
+            "errorObject": {
+                "customButtonLabel": "Refresh",
+                "customDescription": "Please refresh the page and try again",
+                "customImageHeight": "180px",
+                "customImageUrl": "https://assets-in.bmscdn.com/coupon/journey/coupon-weird.png",
+                "customTitle": "Sorry, something went wrong"
+            },
+            "status": "IDLE"
+        }
+    },
+    "deemedLogin": {
+        "data": {
+        },
+        "error": {
+        },
+        "status": "IDLE"
+    },
+    "deviceList": {
+        "data": {
+        },
+        "status": "IDLE"
+    },
+    "donation": {
+        "bookASmileData": [
+        ],
+        "error": {
+        },
+        "status": "IDLE"
+    },
+    "experimentation": {
+        "appliedExperimentsMeta": [
+            {
+                "isDefault": false,
+                "pageRegex": [
+                ],
+                "variant": "1",
+                "variantSlug": "moviesAutoPlayback=variant"
+            }
+        ],
+        "experimentsSlug": "moviesAutoPlayback=variant"
+    },
+    "explore": {
+        "activities": {
+            "actions": null,
+            "ads": null,
+            "breadCrumbs": [
+            ],
+            "filterRoute": "",
+            "filters": null,
+            "header": {
+            },
+            "listings": [
+            ],
+            "meta": {
+            },
+            "pageId": null,
+            "scrollId": null,
+            "status": "IDLE",
+            "styles": {
+            },
+            "webPageConfig": null,
+            "xDCToken": null
+        },
+        "currentPage": "",
+        "events": {
+            "actions": null,
+            "ads": null,
+            "breadCrumbs": [
+            ],
+            "filterRoute": "",
+            "filters": null,
+            "header": {
+            },
+            "listings": [
+            ],
+            "meta": {
+            },
+            "pageId": null,
+            "scrollId": null,
+            "status": "IDLE",
+            "styles": {
+            },
+            "webPageConfig": null,
+            "xDCToken": null
+        },
+        "home": {
+            "actions": null,
+            "ads": null,
+            "breadCrumbs": [
+            ],
+            "filterRoute": "",
+            "filters": null,
+            "header": {
+            },
+            "listings": [
+            ],
+            "meta": {
+            },
+            "pageId": null,
+            "scrollId": null,
+            "status": "IDLE",
+            "styles": {
+            },
+            "webPageConfig": null,
+            "xDCToken": null
+        },
+        "movies": {
+            "actions": null,
+            "ads": null,
+            "breadCrumbs": [
+            ],
+            "filterRoute": "",
+            "filters": null,
+            "header": {
+            },
+            "listings": [
+            ],
+            "meta": {
+            },
+            "pageId": null,
+            "scrollId": null,
+            "status": "IDLE",
+            "styles": {
+            },
+            "webPageConfig": null,
+            "xDCToken": null
+        },
+        "other": {
+            "actions": null,
+            "ads": null,
+            "breadCrumbs": [
+            ],
+            "filterRoute": "",
+            "filters": null,
+            "header": {
+            },
+            "listings": [
+            ],
+            "meta": {
+            },
+            "pageId": null,
+            "scrollId": null,
+            "status": "IDLE",
+            "styles": {
+            },
+            "webPageConfig": null,
+            "xDCToken": null
+        },
+        "plays": {
+            "actions": null,
+            "ads": null,
+            "breadCrumbs": [
+            ],
+            "filterRoute": "",
+            "filters": null,
+            "header": {
+            },
+            "listings": [
+            ],
+            "meta": {
+            },
+            "pageId": null,
+            "scrollId": null,
+            "status": "IDLE",
+            "styles": {
+            },
+            "webPageConfig": null,
+            "xDCToken": null
+        },
+        "sports": {
+            "actions": null,
+            "ads": null,
+            "breadCrumbs": [
+            ],
+            "filterRoute": "",
+            "filters": null,
+            "header": {
+            },
+            "listings": [
+            ],
+            "meta": {
+            },
+            "pageId": null,
+            "scrollId": null,
+            "status": "IDLE",
+            "styles": {
+            },
+            "webPageConfig": null,
+            "xDCToken": null
+        },
+        "stream": {
+            "actions": null,
+            "ads": null,
+            "breadCrumbs": [
+            ],
+            "filterRoute": "",
+            "filters": null,
+            "header": {
+            },
+            "listings": [
+            ],
+            "meta": {
+            },
+            "pageId": null,
+            "scrollId": null,
+            "status": "IDLE",
+            "styles": {
+            },
+            "webPageConfig": null,
+            "xDCToken": null
+        }
+    },
+    "extWallets": {
+        "errorMessage": "",
+        "isError": false,
+        "isLoading": false,
+        "isSuccess": false
+    },
+    "feedbackForm": {
+        "data": {
+            "ctaText": "Explore Now",
+            "message": "Kindly visit Homepage for more Entertainment."
+        },
+        "status": "IDLE"
+    },
+    "fifaContactUs": {
+        "data": {
+        },
+        "error": {
+        },
+        "status": "IDLE"
+    },
+    "filmypass": {
+        "errorProps": {
+            "message": "Please try again after a while."
+        },
+        "isAPIErrored": false,
+        "isAPIRequestLoading": false,
+        "otpProps": {
+            "resend": {
+                "status": false,
+                "timeout": 30
+            }
+        },
+        "otpType": ""
+    },
+    "fnbNonBms": {
+        "foodComboListing": {
+            "data": [
+            ],
+            "isError": false,
+            "isFetching": false
+        },
+        "venueListing": {
+            "data": [
+            ],
+            "isError": false,
+            "isFetching": false
+        }
+    },
+    "foodCombo": {
+        "banners": [
+        ],
+        "data": [
+        ],
+        "foodCategoryName": "EXCLUSIVE",
+        "isError": false,
+        "isFetching": false,
+        "seatDelivery": [
+        ]
+    },
+    "giftCardListing": {
+        "data": [
+        ],
+        "error": "",
+        "status": "IDLE"
+    },
+    "giftcardSynopsis": {
+        "giftcardSynopsisData": {
+        },
+        "status": "IDLE",
+        "transactionData": {
+        },
+        "transactionErrorMessage": "Something's not right here. Please try again after a while. We appreciate your patience.",
+        "transactionStatus": "IDLE"
+    },
+    "giftcardVoucherBalance": {
+        "details": {
+            "amount": 0,
+            "balance": 0,
+            "expiry": "",
+            "isActive": true,
+            "isExpired": true
+        },
+        "error": "",
+        "status": "IDLE",
+        "voucherCode": ""
+    },
+    "helpCentre": {
+        "articleDetails": {
+            "data": {
+            },
+            "status": "IDLE"
+        },
+        "articles": {
+            "data": {
+            },
+            "status": "IDLE"
+        },
+        "chatConfig": {
+            "data": {
+            },
+            "status": "IDLE"
+        },
+        "conversations": {
+            "data": {
+            },
+            "status": "IDLE"
+        },
+        "feedback": {
+            "data": {
+            },
+            "status": "IDLE"
+        },
+        "home": {
+            "data": {
+            },
+            "isLoggedIn": false,
+            "status": "IDLE"
+        },
+        "issueTicketDetails": {
+            "data": {
+            },
+            "status": "IDLE"
+        },
+        "missingTicketAttempt": {
+            "data": {
+            },
+            "status": "IDLE"
+        },
+        "missingTicketList": {
+            "data": {
+            },
+            "status": "IDLE"
+        },
+        "otp": {
+            "data": {
+            },
+            "status": "IDLE"
+        },
+        "queries": {
+            "data": {
+            },
+            "status": "IDLE"
+        },
+        "resendConfirmation": {
+            "data": {
+            },
+            "status": "IDLE"
+        },
+        "topics": {
+            "data": {
+            },
+            "status": "IDLE"
+        }
+    },
+    "iedb": {
+        "reviewRating": {
+            "hashTagsData": null,
+            "hideReviewModal": false,
+            "isFetchingHashTags": false,
+            "isRequestingUserReview": false,
+            "isSaveReviewRatingRequesting": false,
+            "reviewRatingResponse": {
+            },
+            "showPostWatchReviewModal": {
+            }
+        }
+    },
+    "inviteFriends": {
+        "isError": false,
+        "isFetching": false,
+        "isSuccess": false,
+        "response": null
+    },
+    "leadgenForm": {
+        "errorProps": {
+            "message": "Please try again after a while."
+        },
+        "leadgenFormData": {
+        },
+        "otpProps": {
+            "resend": {
+                "status": false,
+                "timeout": 30
+            }
+        },
+        "otpType": "",
+        "status": "IDLE"
+    },
+    "login": {
+        "applePostParams": {
+        },
+        "googleSdkInit": false,
+        "isError": false,
+        "isLoading": false,
+        "isLoggedIn": false,
+        "isLoyaltyLogin": false,
+        "loginData": null,
+        "loginUrlWithReferer": null,
+        "mobileNumber": null,
+        "redirectToOrderSummary": false
+    },
+    "modals": {
+        "modals": [
+        ]
+    },
+    "movieVoucher": {
+        "movieVoucherData": {
+            "data": [
+            ],
+            "error": null,
+            "status": "IDLE"
+        },
+        "VoucherTrans": {
+            "error": null,
+            "status": "IDLE",
+            "transData": {
+            }
+        }
+    },
+    "myProfile": {
+        "cancelBooking": {
+            "cancellationDetails": null,
+            "cancelTickets": null,
+            "error": null,
+            "errorMessage": null,
+            "isCancelling": false,
+            "isError": false,
+            "isFetching": false,
+            "isSuccess": false,
+            "showCancellationSuccess": false
+        },
+        "dashboard": {
+            "data": {
+            },
+            "error": false,
+            "loading": false
+        },
+        "editProfile": {
+            "data": null,
+            "inputParamsUpdated": true,
+            "isError": false,
+            "isFetching": false,
+            "isSuccess": false
+        },
+        "infoContent": {
+            "data": {
+            },
+            "errorObj": null,
+            "loading": true
+        },
+        "profilePic": {
+            "data": {
+            },
+            "status": "IDLE"
+        },
+        "purchaseHistory": {
+            "couponData": {
+            },
+            "isError": false,
+            "isFetching": false,
+            "isSuccess": false,
+            "purchaseHistoryData": {
+            },
+            "resendEmail": null,
+            "transferredTickets": {
+                "activeTransfers": [
+                ],
+                "successfulTransfers": [
+                ]
+            },
+            "updatedBarcodeObject": null
+        },
+        "verifyPii": {
+            "errorData": {
+            },
+            "isError": false,
+            "isFetching": false,
+            "successData": {
+            }
+        }
+    },
+    "offerListings": {
+        "isMobileDevice": false,
+        "offerCategories": [
+        ],
+        "offerListingsData": [
+        ],
+        "status": "IDLE"
+    },
+    "offers": {
+        "offerDetails": null,
+        "offerTypes": [
+        ]
+    },
+    "offerSynopsis": {
+        "isMobileDevice": false,
+        "offerSynopsisData": [
+        ],
+        "status": "IDLE"
+    },
+    "orderSummary": {
+        "AddChgs": [
+        ],
+        "basResponse": null,
+        "CancellationPolicy": [
+        ],
+        "CouponDetails": [
+        ],
+        "disclaimer": {
+        },
+        "Inventory": [
+        ],
+        "isBASAddError": false,
+        "isBASAdding": false,
+        "isBASRemoved": true,
+        "isBASRemoving": false,
+        "isCouponRemoveError": false,
+        "isCouponRemoving": false,
+        "isError": false,
+        "isFetching": false,
+        "OrderCash": [
+        ],
+        "paymentFailure": {
+        },
+        "promoCodeValidationResponse": {
+            "errorMsg": "",
+            "hasError": false,
+            "isFetching": false,
+            "showErrorPopUp": false
+        },
+        "promos": [
+        ],
+        "reserveSeats": {
+            "data": {
+            },
+            "set": false
+        },
+        "SeatInfo": [
+        ],
+        "SessionOrder": [
+            null
+        ],
+        "stateList": [
+        ],
+        "suggestedItems": [
+        ],
+        "Summary": [
+            {
+                "Order_mnyTxnAmount": 0
+            }
+        ],
+        "tips": [
+        ],
+        "unsetOffer": {
+            "offerState": false,
+            "response": {
+            }
+        }
+    },
+    "orderSummaryFnb": {
+        "isError": false,
+        "isFetching": false
+    },
+    "otp": {
+        "callerInfo": {
+        },
+        "isError": false,
+        "isRequesting": false,
+        "otpSent": false,
+        "otpVerified": false,
+        "params": {
+        },
+        "sendParams": {
+        },
+        "type": "activate-wallet",
+        "verifyparams": {
+        },
+        "verifyResponse": {
+            "data": {
+            }
+        }
+    },
+    "ottPlatforms": {
+        "error": false,
+        "errorMessage": "",
+        "itemData": {
+        },
+        "loading": false,
+        "synopsisData": {
+        }
+    },
+    "payments": {
+        "amountPayable": 0,
+        "appCode": "",
+        "appliedOffer": "",
+        "cardCVCValid": false,
+        "cardExpiryValid": false,
+        "cardNameValid": false,
+        "cardNoValid": false,
+        "checkSigninVerification": false,
+        "cinepolisBalanceAmount": "",
+        "cinepolisMessage": "",
+        "data": null,
+        "errorRequestingCinepolisBalance": false,
+        "genericFlow": {
+            "sendOtpResponse": {
+            },
+            "validateInstrument": {
+                "isError": false,
+                "isLoading": false
+            },
+            "verifyOtpResponse": {
+            }
+        },
+        "getAppliedGVs": [
+        ],
+        "isError": false,
+        "isErrorUserPayDetails": false,
+        "isFetching": false,
+        "isFetchingUserPayDetails": false,
+        "isGVChecked": false,
+        "isPaying": false,
+        "isRequestingCinepolisBalance": false,
+        "isSuccess": false,
+        "isWalletChecked": false,
+        "isWalletCheckFailed": false,
+        "isWalletCheckRequesting": false,
+        "isWalletVisible": true,
+        "isZeroPaySuccessful": false,
+        "mpidApplied": [
+        ],
+        "orderSummaryAppConfig": [
+        ],
+        "orderSummaryBookingId": "",
+        "paybackDetails": {
+            "paybackRedeem": {
+                "currentBalance": 0,
+                "errorMessage": "",
+                "isError": false,
+                "paybackAppliedData": {
+                }
+            },
+            "twidDetails": {
+                "isError": false,
+                "twidEligibilityDetails": {
+                }
+            }
+        },
+        "paymentOptions": [
+        ],
+        "paymentSubOptionsSearchText": "",
+        "paymentSummary": [
+        ],
+        "selectedPaymentSubOptions": [
+        ],
+        "shouldCallOrderSummary": false,
+        "showFullLoading": true,
+        "successValidatingCinepolisBalance": false,
+        "totalAmount": 0,
+        "userPayDetails": null,
+        "walletBalance": 0,
+        "walletDeductedAmount": 0
+    },
+    "playCreditCard": {
+        "addressValidate": {
+            "data": {
+            },
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "bookSlot": {
+            "data": {
+            },
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "cardManagement": {
+            "data": {
+            },
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "eligiblityCheck": {
+            "data": {
+            },
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "generateOTP": {
+            "data": {
+            },
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "getAllOffers": {
+            "data": {
+            },
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "getAppointment": {
+            "data": {
+            },
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "getAppState": {
+            "data": {
+            },
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "getVKYCOptions": {
+            "data": {
+            },
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "global": {
+            "ad": ""
+        },
+        "initiateKYC": {
+            "data": {
+            },
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "landingPage": {
+            "data": {
+            },
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "pinCode": {
+            "data": {
+            },
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "submitApplication": {
+            "data": {
+            },
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "submitInterestForm": {
+            "data": {
+            },
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "validateOTP": {
+            "data": {
+            },
+            "error": null,
+            "loading": false,
+            "success": false
+        },
+        "validatePAN": {
+            "data": {
+            },
+            "error": null,
+            "loading": false,
+            "success": false
+        }
+    },
+    "pvrLoyaltyReducer": {
+        "data": {
+        },
+        "status": "IDLE"
+    },
+    "qrServiceData": {
+        "error": false,
+        "redirectionURL": ""
+    },
+    "quickBookShowtimesStore": {
+        "data": {
+        },
+        "error": {
+        },
+        "modalProps": {
+        },
+        "primaryStatus": "IDLE",
+        "secondaryStatus": "IDLE",
+        "selectedDateCode": "",
+        "sessionError": {
+        },
+        "tertiaryStatus": "IDLE",
+        "toastMessage": ""
+    },
+    "quickPay": {
+        "listData": {
+            "CV": [
+            ],
+            "EWFC": [
+            ],
+            "GV": [
+            ],
+            "NB": [
+            ],
+            "RPPB": [
+            ]
+        },
+        "status": "IDLE"
+    },
+    "regions": {
+        "currentRegion": null,
+        "geoLocationErrorMessage": null,
+        "isError": false,
+        "isFetching": false,
+        "isFetchingLocation": false,
+        "searchKey": ""
+    },
+    "rewards": {
+        "discoverRewards": {
+            "data": {
+                "campaigns": [
+                ]
+            },
+            "isDiscoverRewardsError": false,
+            "isDiscoverRewardsFetching": true,
+            "isDiscoverRewardsSuccess": false,
+            "isSSRData": false
+        },
+        "myRewards": {
+            "data": {
+                "scratched": [
+                ],
+                "unscratched": [
+                ]
+            },
+            "isMyRewardsError": false,
+            "isMyRewardsFetching": false,
+            "isMyRewardsSuccess": false,
+            "isSSRData": false
+        },
+        "redeemReward": {
+            "data": [
+            ],
+            "isRedeemRewardError": false,
+            "isRedeemRewardFetching": false,
+            "isRedeemRewardSuccess": false,
+            "isSSRData": false
+        },
+        "updateReward": {
+            "isUpdateRewardError": false,
+            "isUpdateRewardFetching": false,
+            "isUpdateRewardSuccess": false,
+            "updateReward": [
+            ]
+        }
+    },
+    "search": {
+        "appliedCategories": [
+        ],
+        "categories": [
+        ],
+        "extras": [
+        ],
+        "isFetchingQuickSearch": false,
+        "quickSearchResults": {
+        },
+        "trending": [
+        ]
+    },
+    "seatLayout": {
+        "data": [
+        ],
+        "isFetchingLayout": false,
+        "lngTransactionIdentifier": 0,
+        "metaData": [
+        ],
+        "quantity": 2,
+        "reserve": false,
+        "seatClickedOn": {
+            "seats": [
+            ]
+        },
+        "selectedSeats": {
+            "seats": [
+            ]
+        },
+        "settingSeat": false,
+        "ticketPrice": 0
+    },
+    "seo": {
+        "/pune/movies/zwigato/ET00351091": {
+            "breadcrumb": [
+                {
+                    "cta": "https://in.bookmyshow.com",
+                    "item": "Online tickets"
+                },
+                {
+                    "cta": "/explore/movies",
+                    "item": "Movie tickets"
+                },
+                {
+                    "cta": "/explore/movies",
+                    "item": "Latest Movies"
+                },
+                {
+                    "cta": "/pune/movies/zwigato/ET00351091",
+                    "item": "Zwigato"
+                }
+            ],
+            "footer": {
+                "content": [
+                ],
+                "links": [
+                    {
+                        "heading": "Movies Now Showing in Pune",
+                        "items": [
+                            {
+                                "label": "Tu Jhoothi Main Makkaar",
+                                "link": "/movies/tu-jhoothi-main-makkaar/ET00347237"
+                            },
+                            {
+                                "label": "Kabzaa",
+                                "link": "/movies/kabzaa-hindi/ET00343989"
+                            },
+                            {
+                                "label": "Shazam! Fury of the Gods",
+                                "link": "/movies/shazam-fury-of-the-gods/ET00312239"
+                            },
+                            {
+                                "label": "Mrs. Chatterjee Vs Norway",
+                                "link": "/movies/mrs-chatterjee-vs-norway/ET00319185"
+                            },
+                            {
+                                "label": "Zwigato",
+                                "link": "/movies/zwigato/ET00351091"
+                            },
+                            {
+                                "label": "Demon Slayer: Kimetsu no Yaiba To The Swordsmith Village",
+                                "link": "/movies/demon-slayer-kimetsu-no-yaiba-to-the-swordsmith-village/ET00354652"
+                            },
+                            {
+                                "label": "Fast X",
+                                "link": "/movies/fast-x-4dx/ET00352818"
+                            },
+                            {
+                                "label": "Pathaan",
+                                "link": "/movies/pathaan/ET00323848"
+                            },
+                            {
+                                "label": "Raundal",
+                                "link": "/movies/raundal/ET00352336"
+                            },
+                            {
+                                "label": "Shubh Nikah",
+                                "link": "/movies/shubh-nikah/ET00354147"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Upcoming & NowShowing Drama Movies",
+                        "items": [
+                            {
+                                "label": "Mrs. Chatterjee Vs Norway",
+                                "link": "/movies/mrs-chatterjee-vs-norway/ET00319185"
+                            },
+                            {
+                                "label": "Ved",
+                                "link": "/movies/ved/ET00343245"
+                            },
+                            {
+                                "label": "Kabzaa",
+                                "link": "/movies/kabzaa-hindi/ET00343989"
+                            },
+                            {
+                                "label": "Raundal",
+                                "link": "/movies/raundal/ET00352336"
+                            },
+                            {
+                                "label": "Zwigato",
+                                "link": "/movies/zwigato/ET00351091"
+                            },
+                            {
+                                "label": "Vaalvi",
+                                "link": "/movies/vaalvi/ET00349295"
+                            },
+                            {
+                                "label": "RRR",
+                                "link": "/movies/rrr-hindi/ET00129353"
+                            },
+                            {
+                                "label": "The Whale",
+                                "link": "/movies/the-whale/ET00346771"
+                            },
+                            {
+                                "label": "Tar",
+                                "link": "/movies/tar/ET00351873"
+                            },
+                            {
+                                "label": "Phalana Abbayi Phalana Ammayi",
+                                "link": "/movies/phalana-abbayi-phalana-ammayi/ET00352230"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Upcoming & NowShowing Hindi Movies",
+                        "items": [
+                            {
+                                "label": "John Wick: Chapter 4",
+                                "link": "/movies/john-wick-chapter-4/ET00311714"
+                            },
+                            {
+                                "label": "Tu Jhoothi Main Makkaar",
+                                "link": "/movies/tu-jhoothi-main-makkaar/ET00347237"
+                            },
+                            {
+                                "label": "Mrs. Chatterjee Vs Norway",
+                                "link": "/movies/mrs-chatterjee-vs-norway/ET00319185"
+                            },
+                            {
+                                "label": "Pathaan",
+                                "link": "/movies/pathaan/ET00323848"
+                            },
+                            {
+                                "label": "Kabzaa",
+                                "link": "/movies/kabzaa-hindi/ET00343989"
+                            },
+                            {
+                                "label": "Avatar: The Way of Water",
+                                "link": "/movies/avatar-the-way-of-water-3d/ET00342441"
+                            },
+                            {
+                                "label": "Shazam! Fury of the Gods",
+                                "link": "/movies/shazam-fury-of-the-gods/ET00312239"
+                            },
+                            {
+                                "label": "Zwigato",
+                                "link": "/movies/zwigato/ET00351091"
+                            },
+                            {
+                                "label": "RRR",
+                                "link": "/movies/rrr-hindi/ET00129353"
+                            },
+                            {
+                                "label": "Fast X",
+                                "link": "/movies/fast-x-4dx/ET00352818"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Top Cinemas in pune",
+                        "items": [
+                            {
+                                "label": "PVR: Phoenix Market City, Gold, Pune",
+                                "link": "https://in.bookmyshow.com/pune/cinema/pvr-phoenix-market-city-gold-pune/PVGP"
+                            },
+                            {
+                                "label": "INOX: Royal Heritage Mall, NIBM Ext",
+                                "link": "https://in.bookmyshow.com/pune/cinema/inox-royal-heritage-mall-nibm-ext/RHMN"
+                            },
+                            {
+                                "label": "E-SQUARE ELITE: Xion Mall, Hinjawadi, Pune",
+                                "link": "https://in.bookmyshow.com/pune/cinema/esquare-elite-xion-mall-hinjawadi-pune/ESEM"
+                            },
+                            {
+                                "label": "Cinepolis: Seasons Mall, Pune",
+                                "link": "https://in.bookmyshow.com/pune/cinema/cinepolis-seasons-mall-pune/PUNB"
+                            },
+                            {
+                                "label": "City Pride: Kothrud",
+                                "link": "https://in.bookmyshow.com/pune/cinema/city-pride-kothrud/CPKT"
+                            },
+                            {
+                                "label": "PVR: City One Mall, Pimpri",
+                                "link": "https://in.bookmyshow.com/pune/cinema/pvr-city-one-mall-pimpri/PCOP"
+                            },
+                            {
+                                "label": "City Pride: Satara Road",
+                                "link": "https://in.bookmyshow.com/pune/cinema/city-pride-satara-road/CTSR"
+                            },
+                            {
+                                "label": "PVR: Grand Highstreet, Pune",
+                                "link": "https://in.bookmyshow.com/pune/cinema/pvr-grand-highstreet-pune/PGHP"
+                            },
+                            {
+                                "label": "INOX: Elpro City Square, Chinchwad",
+                                "link": "https://in.bookmyshow.com/pune/cinema/inox-elpro-city-square-chinchwad/ECPP"
+                            },
+                            {
+                                "label": "Cinepolis: Nexus WESTEND Mall Aundh, Pune",
+                                "link": "https://in.bookmyshow.com/pune/cinema/cinepolis-nexus-westend-mall-aundh-pune/CNWE"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Upcoming Movies in Pune",
+                        "items": [
+                            {
+                                "label": "Khosty",
+                                "link": "/movies/khosty/ET00355088"
+                            },
+                            {
+                                "label": "Das Ka Dhamki",
+                                "link": "/movies/das-ka-dhamki/ET00344659"
+                            },
+                            {
+                                "label": "Geeta Sakshigaa",
+                                "link": "/movies/geeta-sakshigaa/ET00350952"
+                            },
+                            {
+                                "label": "Phulrani",
+                                "link": "/movies/phulrani/ET00352801"
+                            },
+                            {
+                                "label": "Rangamarthanda",
+                                "link": "/movies/rangamarthanda/ET00355070"
+                            },
+                            {
+                                "label": "Jambu Maharishi",
+                                "link": "/movies/jambu-maharishi/ET00354258"
+                            },
+                            {
+                                "label": "Es Jahano Door Kitte Chal Jindiye",
+                                "link": "/movies/es-jahano-door-kitte-chal-jindiye/ET00331893"
+                            },
+                            {
+                                "label": "Mana Museum",
+                                "link": "/movies/mana-museum/ET00354389"
+                            },
+                            {
+                                "label": "Parundhaaguthu Oor Kuruvi",
+                                "link": "/movies/parundhaaguthu-oor-kuruvi/ET00354919"
+                            },
+                            {
+                                "label": "Operation Mayfair",
+                                "link": "/movies/operation-mayfair/ET00354871"
+                            },
+                            {
+                                "label": "Bheed",
+                                "link": "/movies/bheed/ET00351618"
+                            },
+                            {
+                                "label": "Borrder",
+                                "link": "/movies/borrder/ET00310340"
+                            },
+                            {
+                                "label": "Shudhu Jaaoya Asa",
+                                "link": "/movies/shudhu-jaaoya-asa/ET00355099"
+                            },
+                            {
+                                "label": "Kuttrappinnani",
+                                "link": "/movies/kuttrappinnani/ET00353223"
+                            },
+                            {
+                                "label": "John Wick: Chapter 4",
+                                "link": "/movies/john-wick-chapter-4/ET00311714"
+                            },
+                            {
+                                "label": "Rang Ratta",
+                                "link": "/movies/rang-ratta/ET00353047"
+                            },
+                            {
+                                "label": "Crush",
+                                "link": "/movies/crush/ET00352146"
+                            },
+                            {
+                                "label": "The Era Of 1990",
+                                "link": "/movies/the-era-of-1990/ET00353119"
+                            },
+                            {
+                                "label": "Mangu The Fighter",
+                                "link": "/movies/mangu-the-fighter/ET00352147"
+                            },
+                            {
+                                "label": "Gurudev Hoysala",
+                                "link": "/movies/gurudev-hoysala/ET00339422"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Movies By Genre",
+                        "items": [
+                            {
+                                "label": "Drama Movies",
+                                "link": "/explore/drama-movies-pune"
+                            },
+                            {
+                                "label": "Action Movies",
+                                "link": "/explore/action-movies-pune"
+                            },
+                            {
+                                "label": "Adventure Movies",
+                                "link": "/explore/adventure-movies-pune"
+                            },
+                            {
+                                "label": "Romantic Movies",
+                                "link": "/explore/romantic-movies-pune"
+                            },
+                            {
+                                "label": "Thriller Movies",
+                                "link": "/explore/thriller-movies-pune"
+                            },
+                            {
+                                "label": "Sci-Fi Movies",
+                                "link": "/explore/sci-fi-movies-pune"
+                            },
+                            {
+                                "label": "Comedy Movies",
+                                "link": "/explore/comedy-movies-pune"
+                            },
+                            {
+                                "label": "Crime Movies",
+                                "link": "/explore/crime-movies-pune"
+                            },
+                            {
+                                "label": "Period Movies",
+                                "link": "/explore/period-movies-pune"
+                            },
+                            {
+                                "label": "Fantasy Movies",
+                                "link": "/explore/fantasy-movies-pune"
+                            },
+                            {
+                                "label": "Classic Movies",
+                                "link": "/explore/classic-movies-pune"
+                            },
+                            {
+                                "label": "Adaptation Movies",
+                                "link": "/explore/adaptation-movies-pune"
+                            },
+                            {
+                                "label": "Biography Movies",
+                                "link": "/explore/biography-movies-pune"
+                            },
+                            {
+                                "label": "Adult Movies",
+                                "link": "/explore/adult-movies-pune"
+                            },
+                            {
+                                "label": "Devotional Movies",
+                                "link": "/explore/devotional-movies-pune"
+                            },
+                            {
+                                "label": "Mythological Movies",
+                                "link": "/explore/mythological-movies-pune"
+                            },
+                            {
+                                "label": "Noir Movies",
+                                "link": "/explore/noir-movies-pune"
+                            },
+                            {
+                                "label": "Political Movies",
+                                "link": "/explore/political-movies-pune"
+                            },
+                            {
+                                "label": "Supernatural Movies",
+                                "link": "/explore/supernatural-movies-pune"
+                            },
+                            {
+                                "label": "Sports Movies",
+                                "link": "/explore/sports-movies-pune"
+                            },
+                            {
+                                "label": "Heist Movies",
+                                "link": "/explore/heist-movies-pune"
+                            },
+                            {
+                                "label": "screening Movies",
+                                "link": "/explore/Screening-movies-pune"
+                            },
+                            {
+                                "label": "Suspense Movies",
+                                "link": "/explore/suspense-movies-pune"
+                            },
+                            {
+                                "label": "Historical Movies",
+                                "link": "/explore/historical-movies-pune"
+                            },
+                            {
+                                "label": "Tragedy Movies",
+                                "link": "/explore/tragedy-movies-pune"
+                            },
+                            {
+                                "label": "Animation Movies",
+                                "link": "/explore/animation-movies-pune"
+                            },
+                            {
+                                "label": "Anime Movies",
+                                "link": "/explore/anime-movies-pune"
+                            },
+                            {
+                                "label": "Horror Movies",
+                                "link": "/explore/horror-movies-pune"
+                            },
+                            {
+                                "label": "Psychological Movies",
+                                "link": "/explore/psychological-movies-pune"
+                            },
+                            {
+                                "label": "War Movies",
+                                "link": "/explore/war-movies-pune"
+                            },
+                            {
+                                "label": "Mystery Movies",
+                                "link": "/explore/mystery-movies-pune"
+                            },
+                            {
+                                "label": "Musical Movies",
+                                "link": "/explore/musical-movies-pune"
+                            },
+                            {
+                                "label": "Bollywood Movies",
+                                "link": "/explore/bollywood-movies-pune"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Movies By Language",
+                        "items": [
+                            {
+                                "label": "Movies in English",
+                                "link": "/explore/english-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Hindi",
+                                "link": "/explore/hindi-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Marathi",
+                                "link": "/explore/marathi-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Japanese",
+                                "link": "/explore/japanese-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Telugu",
+                                "link": "/explore/telugu-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Chattisgarhi",
+                                "link": "/explore/chattisgarhi-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Khasi",
+                                "link": "/explore/khasi-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Sindhi",
+                                "link": "/explore/sindhi-movies-pune"
+                            },
+                            {
+                                "label": "Movies in English 7D",
+                                "link": "/explore/english-7d-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Urdu",
+                                "link": "/explore/urdu-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Tamil",
+                                "link": "/explore/tamil-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Bengali",
+                                "link": "/explore/bengali-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Nepali",
+                                "link": "/explore/nepali-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Portuguese",
+                                "link": "/explore/portuguese-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Punjabi",
+                                "link": "/explore/punjabi-movies-pune"
+                            },
+                            {
+                                "label": "Movies in French",
+                                "link": "/explore/french-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Bhojpuri",
+                                "link": "/explore/bhojpuri-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Konkani",
+                                "link": "/explore/konkani-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Tulu",
+                                "link": "/explore/tulu-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Odia",
+                                "link": "/explore/oriya-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Kannada",
+                                "link": "/explore/kannada-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Gujarati",
+                                "link": "/explore/gujrati-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Haryanavi",
+                                "link": "/explore/haryanavi-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Rajasthani",
+                                "link": "/explore/rajasthani-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Assamese",
+                                "link": "/explore/assamese-movies-pune"
+                            },
+                            {
+                                "label": "Movies in Malayalam",
+                                "link": "/explore/malayalam-movies-pune"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "English Movies By Genre",
+                        "items": [
+                            {
+                                "label": "English Action Movies",
+                                "link": "/explore/english-action-movies-pune"
+                            },
+                            {
+                                "label": "English Classic Movies",
+                                "link": "/explore/english-classic-movies-pune"
+                            },
+                            {
+                                "label": "English Crime Movies",
+                                "link": "/explore/english-crime-movies-pune"
+                            },
+                            {
+                                "label": "English Adventure Movies",
+                                "link": "/explore/english-adventure-movies-pune"
+                            },
+                            {
+                                "label": "English Adaptation Movies",
+                                "link": "/explore/english-adaptation-movies-pune"
+                            },
+                            {
+                                "label": "English Biography Movies",
+                                "link": "/explore/english-biography-movies-pune"
+                            },
+                            {
+                                "label": "English Adult Movies",
+                                "link": "/explore/english-adult-movies-pune"
+                            },
+                            {
+                                "label": "English Devotional Movies",
+                                "link": "/explore/english-devotional-movies-pune"
+                            },
+                            {
+                                "label": "English Mythological Movies",
+                                "link": "/explore/english-mythological-movies-pune"
+                            },
+                            {
+                                "label": "English Drama Movies",
+                                "link": "/explore/english-drama-movies-pune"
+                            },
+                            {
+                                "label": "English Noir Movies",
+                                "link": "/explore/english-noir-movies-pune"
+                            },
+                            {
+                                "label": "English Period Movies",
+                                "link": "/explore/english-period-movies-pune"
+                            },
+                            {
+                                "label": "English Political Movies",
+                                "link": "/explore/english-political-movies-pune"
+                            },
+                            {
+                                "label": "English Supernatural Movies",
+                                "link": "/explore/english-supernatural-movies-pune"
+                            },
+                            {
+                                "label": "English Sports Movies",
+                                "link": "/explore/english-sports-movies-pune"
+                            },
+                            {
+                                "label": "English Fantasy Movies",
+                                "link": "/explore/english-fantasy-movies-pune"
+                            },
+                            {
+                                "label": "English Heist Movies",
+                                "link": "/explore/english-heist-movies-pune"
+                            },
+                            {
+                                "label": "English Sci-Fi Movies",
+                                "link": "/explore/english-sci-fi-movies-pune"
+                            },
+                            {
+                                "label": "English screening Movies",
+                                "link": "/explore/english-Screening-movies-pune"
+                            },
+                            {
+                                "label": "English Suspense Movies",
+                                "link": "/explore/english-suspense-movies-pune"
+                            },
+                            {
+                                "label": "English Historical Movies",
+                                "link": "/explore/english-historical-movies-pune"
+                            },
+                            {
+                                "label": "English Thriller Movies",
+                                "link": "/explore/english-thriller-movies-pune"
+                            },
+                            {
+                                "label": "English Tragedy Movies",
+                                "link": "/explore/english-tragedy-movies-pune"
+                            },
+                            {
+                                "label": "English Animation Movies",
+                                "link": "/explore/english-animation-movies-pune"
+                            },
+                            {
+                                "label": "English Anime Movies",
+                                "link": "/explore/english-anime-movies-pune"
+                            },
+                            {
+                                "label": "English Horror Movies",
+                                "link": "/explore/english-horror-movies-pune"
+                            },
+                            {
+                                "label": "English Psychological Movies",
+                                "link": "/explore/english-psychological-movies-pune"
+                            },
+                            {
+                                "label": "English War Movies",
+                                "link": "/explore/english-war-movies-pune"
+                            },
+                            {
+                                "label": "English Mystery Movies",
+                                "link": "/explore/english-mystery-movies-pune"
+                            },
+                            {
+                                "label": "English Romantic Movies",
+                                "link": "/explore/english-romantic-movies-pune"
+                            },
+                            {
+                                "label": "English Musical Movies",
+                                "link": "/explore/english-musical-movies-pune"
+                            },
+                            {
+                                "label": "English Comedy Movies",
+                                "link": "/explore/english-comedy-movies-pune"
+                            },
+                            {
+                                "label": "English Bollywood Movies",
+                                "link": "/explore/english-bollywood-movies-pune"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Movie Reviews And Trending Articles",
+                        "items": [
+                            {
+                                "label": "Trending Articles",
+                                "link": "/entertainment"
+                            },
+                            {
+                                "label": "Latest News on Movies, Events, Plays and Sports",
+                                "link": "/entertainment-news/"
+                            },
+                            {
+                                "label": "Movie Celebrities",
+                                "link": "/person"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "COUNTRIES",
+                        "items": [
+                            {
+                                "label": "Indonesia",
+                                "link": "https://id.bookmyshow.com/"
+                            },
+                            {
+                                "label": "Singapore",
+                                "link": "https://sg.bookmyshow.com/"
+                            },
+                            {
+                                "label": "UAE",
+                                "link": "https://ae.bookmyshow.com/"
+                            },
+                            {
+                                "label": "Sri Lanka",
+                                "link": "https://lk.bookmyshow.com/"
+                            },
+                            {
+                                "label": "West Indies",
+                                "link": "https://wi.bookmyshow.com/"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "HELP",
+                        "items": [
+                            {
+                                "label": "About Us",
+                                "link": "/aboutus"
+                            },
+                            {
+                                "label": "Contact Us",
+                                "link": "/contactus"
+                            },
+                            {
+                                "label": "Current Opening",
+                                "link": "/careers/"
+                            },
+                            {
+                                "label": "Press Release",
+                                "link": "/press-release"
+                            },
+                            {
+                                "label": "Press Coverage",
+                                "link": "/press-coverage"
+                            },
+                            {
+                                "label": "Sitemap",
+                                "link": "/static/sitemap"
+                            },
+                            {
+                                "label": "FAQs",
+                                "link": "/faq"
+                            },
+                            {
+                                "label": "Terms and Conditions",
+                                "link": "/terms-and-conditions"
+                            },
+                            {
+                                "label": "Privacy Policy",
+                                "link": "/privacy"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "BOOKMYSHOW EXCLUSIVES",
+                        "items": [
+                            {
+                                "label": "Lollapalooza India",
+                                "link": "https://lollaindia.com/"
+                            },
+                            {
+                                "label": "Superstar",
+                                "link": "/superstar"
+                            },
+                            {
+                                "label": "BookASmile",
+                                "link": "/donation"
+                            },
+                            {
+                                "label": "Corporate Vouchers",
+                                "link": "/voucher"
+                            },
+                            {
+                                "label": "Gift Cards",
+                                "link": "/giftcards"
+                            },
+                            {
+                                "label": "List My Show",
+                                "link": "/s/list-your-show/"
+                            },
+                            {
+                                "label": "Offers",
+                                "link": "/offers"
+                            },
+                            {
+                                "label": "Stream",
+                                "link": "/explore/c/stream"
+                            },
+                            {
+                                "label": "Buzz",
+                                "link": "/buzz"
+                            },
+                            {
+                                "label": "Movie Trailers",
+                                "link": "/explore/movie-trailers"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "header": {
+                "ampUrl": "/amp/pune/movies/zwigato/ET00351091",
+                "canonical": "/pune/movies/zwigato/ET00351091",
+                "meta_description": "Zwigato (2023), Drama released in Hindi language in theatre near you in pune. Know about Film reviews, lead cast & crew,  photos & video gallery on BookMyShow.",
+                "meta_keywords": "pune Zwigato, movie showtimes, Zwigato trailer, Zwigato starcast, Zwigato 2023, Zwigato movie, online tickets, movie ratings",
+                "meta_reviews": {
+                    "canonical": "{path}",
+                    "meta_description": "{reviewType} reviews for the latest Hindi Drama movie Zwigato release in 2023 on BookMyShow",
+                    "meta_keywords": "Zwigato review, Hindi movie review, Zwigato - Movie {reviewType} review, movies of 2023",
+                    "title": "Zwigato - Movie {reviewType} reviews, in pune | BookMyShow"
+                },
+                "title": "Zwigato (2023) - Movie | Reviews, Cast & Release Date in pune-  BookMyShow",
+                "type": "movie-synopsis"
+            },
+            "hiddenTags": [
+            ],
+            "ldSchema": {
+                "androidViewActionJsonLd": {
+                    "@context": "http://schema.org",
+                    "@type": "ViewAction",
+                    "target": {
+                        "@context": null,
+                        "@type": "EntryPoint",
+                        "urlTemplate": "android-app://com.bt.bms/https/in.bookmyshow.com/pune/movies/ET00351091"
+                    }
+                },
+                "breadcrumbSchema": {
+                    "@context": "http://schema.org",
+                    "@type": "BreadCrumbList",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "item": {
+                                "@id": "https://in.bookmyshow.com",
+                                "name": "Online tickets"
+                            },
+                            "position": 1
+                        },
+                        {
+                            "@type": "ListItem",
+                            "item": {
+                                "@id": "https://in.bookmyshow.com/movies",
+                                "name": "Movie tickets"
+                            },
+                            "position": 2
+                        },
+                        {
+                            "@type": "ListItem",
+                            "item": {
+                                "@id": "/explore/movies",
+                                "name": "Latest Movies"
+                            },
+                            "position": 3
+                        },
+                        {
+                            "@type": "ListItem",
+                            "item": {
+                                "@id": "/pune/movies/zwigato/ET00351091",
+                                "name": "Zwigato"
+                            },
+                            "position": 4
+                        }
+                    ]
+                },
+                "iosViewActionJsonLd": {
+                    "@context": "http://schema.org",
+                    "@type": "ViewAction",
+                    "target": {
+                        "@context": null,
+                        "@type": "EntryPoint",
+                        "urlTemplate": "ios-app://405894842/bmsIndiaApp/in.bookmyshow.com/pune/movies/ET00351091"
+                    }
+                },
+                "itemListSchema": null,
+                "movieJsonLd": {
+                    "@context": "http://schema.org",
+                    "@type": "Movie",
+                    "actor": [
+                        {
+                            "@context": "http://schema.org",
+                            "@type": "Person",
+                            "image": "",
+                            "name": "Kapil Sharma",
+                            "url": "https://in.bookmyshow.com/kapil-sharma/2748"
+                        },
+                        {
+                            "@context": "http://schema.org",
+                            "@type": "Person",
+                            "image": "https://assets-in.bmscdn.comiedb/artist/images/website/poster/large/shahana-goswami-3230-01-09-2016-11-25-50.jpg",
+                            "name": "Shahana Goswami",
+                            "url": "https://in.bookmyshow.com/shahana-goswami/3230"
+                        },
+                        {
+                            "@context": "http://schema.org",
+                            "@type": "Person",
+                            "image": "",
+                            "name": "Sayani Gupta",
+                            "url": "https://in.bookmyshow.com/sayani-gupta/29115"
+                        },
+                        {
+                            "@context": "http://schema.org",
+                            "@type": "Person",
+                            "image": "https://assets-in.bmscdn.comiedb/artist/images/website/poster/large/gul-panag-772-1677583131.jpg",
+                            "name": "Gul Panag",
+                            "url": "https://in.bookmyshow.com/gul-panag/772"
+                        },
+                        {
+                            "@context": "http://schema.org",
+                            "@type": "Person",
+                            "image": "https://assets-in.bmscdn.comiedb/artist/images/website/poster/large/swanand-kirkire-3651-1677582960.jpg",
+                            "name": "Swanand Kirkire",
+                            "url": "https://in.bookmyshow.com/swanand-kirkire/3651"
+                        }
+                    ],
+                    "datePublished": "17 MAR, 2023",
+                    "description": "Manas, an ex-factory floor manager loses his job during the pandemic. He is then forced to work as a food delivery rider, grappling with the app and the world of ratings and incentives. Life is relentless for him, but not without shared moments of joy with his wife, Pratima. The film captures the life of invisible `ordinary` people, hidden in plain sight.",
+                    "director": [
+                        {
+                            "@context": "http://schema.org",
+                            "@type": "Person",
+                            "image": "https://assets-in.bmscdn.comiedb/artist/images/website/poster/large/nandita-das-1546-1677582270.jpg",
+                            "name": "Nandita Das",
+                            "url": "https://in.bookmyshow.com/nandita-das/1546"
+                        }
+                    ],
+                    "duration": 105,
+                    "genre": [
+                        "Drama"
+                    ],
+                    "hasPart": {
+                        "@context": "http://schema.org",
+                        "@type": "Clip",
+                        "description": "trailer",
+                        "potentialAction": {
+                            "@context": "http://schema.org",
+                            "@type": "WatchAction",
+                            "target": {
+                                "@context": "http://schema.org",
+                                "@type": "EntryPoint",
+                                "urlTemplate": ""
+                            }
+                        }
+                    },
+                    "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-250,h-390/et00351091-buymqbanku-portrait.jpg",
+                    "inLanguage": "Hindi",
+                    "musicBy": [
+                    ],
+                    "name": "Zwigato",
+                    "releasedEvent": {
+                        "@context": "http://schema.org",
+                        "@type": "PublicationEvent",
+                        "location": {
+                            "@type": "Country",
+                            "name": "IN"
+                        },
+                        "startDate": "17 MAR, 2023"
+                    }
+                },
+                "tvSeriesJsonLd": null,
+                "videoJsonLd": null
+            },
+            "noFollow": false,
+            "pageMetaTags": [
+                {
+                    "keyName": "properties",
+                    "keyValue": "og:title",
+                    "value": "Zwigato (2023) - Movie | Reviews, Cast & Release Date in pune -  BookMyShow",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "og:description",
+                    "value": "Zwigato (2023), Drama released in Hindi language in theatre near you in pune. Know about Film reviews, lead cast & crew,  photos & video gallery on BookMyShow.",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "og:type",
+                    "value": "movie",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "og:image",
+                    "value": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-750,h-550/et00351091-evzfrvwljb-landscape.jpg",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "og:url",
+                    "value": "https://in.bookmyshow.com/pune/movies/zwigato/ET00351091?utm_source=FBLIKE&fbrefresh=1",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "og:site_name",
+                    "value": "BookMyShow",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "fb:app_id",
+                    "value": "165665113451029",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "al:android:url",
+                    "value": "https://in.bookmyshow.com/pune/movies/zwigato/ET00351091",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "al:android:package",
+                    "value": "com.bt.bms",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "al:android:app_name",
+                    "value": "BookMyShow",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "al:ios:url",
+                    "value": "bmsIndiaApp://in.bookmyshow.com/pune/movies/zwigato/ET00351091",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "al:ios:app_store_id",
+                    "value": "405894842",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "al:ios:app_name",
+                    "value": "BookMyShow",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "twitter:card",
+                    "value": "summary_large_image",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "twitter:site",
+                    "value": "@BookMyShow",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "twitter:creator",
+                    "value": "@BookMyShow",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "twitter:title",
+                    "value": "Zwigato (2023) - Movie | Reviews, Cast & Release Date in pune -  BookMyShow",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "twitter:description",
+                    "value": "Zwigato (2023), Drama released in Hindi language in theatre near you in pune. Know about Film reviews, lead cast & crew,  photos & video gallery on BookMyShow.",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "twitter:images",
+                    "value": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-750,h-550/et00351091-evzfrvwljb-landscape.jpg",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "itemProp",
+                    "keyValue": "description",
+                    "value": "Zwigato (2023), Drama released in Hindi language in theatre near you in pune. Know about Film reviews, lead cast & crew,  photos & video gallery on BookMyShow.",
+                    "valueKey": "content"
+                },
+                {
+                    "keyName": "properties",
+                    "keyValue": "image",
+                    "value": "http://in.bmscdn.com/events/moviecard/ET00351091.jpg",
+                    "valueKey": "content"
+                }
+            ]
+        },
+        "currentUrl": "/pune/movies/zwigato/ET00351091"
+    },
+    "settings": {
+        "isError": false,
+        "isFetching": false,
+        "isSuccess": false,
+        "values": {
+        }
+    },
+    "shareOption": {
+        "close": null,
+        "shareUrl": "",
+        "title": ""
+    },
+    "showtimes": {
+        "hasSSRfailed": false,
+        "isShowdateFetching": true,
+        "searchText": ""
+    },
+    "showtimesFilter": {
+        "appliedPriceFilter": {
+            "showtimesByEvent": [
+            ],
+            "showtimesByVenue": [
+            ]
+        },
+        "appliedTimeFilter": {
+            "showtimesByEvent": [
+            ],
+            "showtimesByVenue": [
+            ]
+        },
+        "filterDate": "",
+        "type": "showtimesByEvent"
+    },
+    "snackbar": {
+        "autoHideDuration": 5000,
+        "element": null,
+        "handleOnClose": null,
+        "horizontalPosition": "center",
+        "isVisible": false,
+        "verticalPosition": "bottom"
+    },
+    "splitTicket": {
+        "formData": {
+            "data": null,
+            "error": null,
+            "status": "IDLE"
+        },
+        "initData": {
+            "bookingId": "",
+            "error": null,
+            "isEnabled": true,
+            "isSSRError": false,
+            "mobile": "",
+            "name": "",
+            "splitTicketDetails": [
+            ],
+            "status": "IDLE",
+            "ticketQuantity": "",
+            "transactionId": ""
+        }
+    },
+    "staticContent": {
+    },
+    "staticPolicy": {
+        "policy": {
+        },
+        "status": "IDLE"
+    },
+    "streamDisclaimers": {
+        "headerData": {
+        },
+        "sections": [
+        ],
+        "status": "IDLE",
+        "type": ""
+    },
+    "streamExplainer": {
+    },
+    "streamLibraryReducer": {
+        "streamLibrary": {
+            "data": {
+            },
+            "error": false,
+            "errorMessage": "",
+            "loading": true
+        },
+        "transactionDetail": {
+            "data": {
+            },
+            "error": false,
+            "errorMessage": "",
+            "loading": true
+        }
+    },
+    "synopsisStore": {
+        "interested": {
+            "ctaStyle": "secondaryCta",
+            "isInterested": "",
+            "postCtaStyle": "tertiarySelectedCta",
+            "postCtaText": "Undo",
+            "postSubtitle": "We'll notify you when it releases",
+            "postTitle": "Your interest has been marked",
+            "preCtaText": "I'm interested",
+            "preSubtitle": "Are you interested in watching this movie?",
+            "preTitle": "In cinemas"
+        },
+        "mediaPlayer": {
+            "error": {
+            },
+            "fairplayCertificate": "",
+            "heartbeatAPI": {
+            },
+            "license": "",
+            "mode": "",
+            "playBackTime": 0,
+            "playUrl": "",
+            "preferences": {
+            },
+            "status": "IDLE",
+            "title": ""
+        },
+        "multiMedia": {
+            "hasMultipleMedia": true,
+            "hasOnlyPoster": false,
+            "multiMediaData": {
+                "languages": [
+                    {
+                        "description": "Hindi",
+                        "id": 1,
+                        "label": "Hindi"
+                    }
+                ],
+                "videos": [
+                    {
+                        "data": [
+                            {
+                                "heading": "Hindi",
+                                "type": "title"
+                            },
+                            {
+                                "analytics": {
+                                    "category": "Trailer",
+                                    "display_position": 1,
+                                    "in_widget_position": 1
+                                },
+                                "imageUrl": "https://img.youtube.com/vi/xtd1aB-iLe0/0.jpg",
+                                "languageId": "1",
+                                "type": "video",
+                                "videoId": "xtd1aB-iLe0",
+                                "videoUrl": "https://www.youtube.com/watch?v=xtd1aB-iLe0"
+                            }
+                        ],
+                        "id": 1
+                    }
+                ]
+            },
+            "singleVideoDetails": {
+            }
+        },
+        "ratingAndReviews": {
+            "aggregatedRatingString": "",
+            "criticPageNum": 1,
+            "criticReviews": [
+            ],
+            "currentHashTagSelected": "",
+            "hashtagList": [
+            ],
+            "hasRated": false,
+            "rating": 0,
+            "rnrSection": {
+            },
+            "singleReview": [
+            ],
+            "status": "IDLE",
+            "totalCriticReviews": 0,
+            "totalUserReviews": 0,
+            "userPageNum": 1,
+            "userRating": 0,
+            "userRatingString": null,
+            "userReviews": [
+            ],
+            "userSpecificReview": {
+            }
+        },
+        "report": {
+            "message": "",
+            "status": "IDLE"
+        },
+        "synopsis": {
+            "analytics": {
+                "advertiser_id": "AD_MOVIE_SYNOPSIS_CARD",
+                "eventReleaseDate": "17 Mar, 2023",
+                "format": "2D",
+                "genre": "Drama",
+                "is_tvod": "No",
+                "label": "now showing",
+                "language": "Hindi"
+            },
+            "bookButton": true,
+            "eventCensor": "U",
+            "eventCode": "ET00351091",
+            "eventDefaultCode": "ET00351091",
+            "eventDimension": "2D",
+            "eventGenre": "Drama",
+            "eventGroupCode": "EG00350272",
+            "eventGroupName": "Zwigato",
+            "eventImageCode": "zwigato-et00351091-1674826404",
+            "eventLanguage": [
+                "HINDI"
+            ],
+            "eventName": "Zwigato",
+            "eventType": "MT",
+            "globalStyle": {
+                "customPrimaryCta": {
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#FFFFFF",
+                    "color": "#DC3558"
+                },
+                "inActivePrimaryCta": {
+                    "backgroundColor": "#C0C0C0",
+                    "borderColor": "#C0C0C0",
+                    "color": "#FFFFFF"
+                },
+                "inActiveSecondaryCta": {
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#C0C0C0",
+                    "color": "#C0C0C0"
+                },
+                "primaryCta": {
+                    "backgroundColor": "#F84464",
+                    "borderColor": "#F84464",
+                    "color": "#FFFFFF"
+                },
+                "secondaryCta": {
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#F84464",
+                    "color": "#F84464"
+                },
+                "tertiaryCta": {
+                    "backgroundColor": "#000000",
+                    "borderColor": "#E5E5E5",
+                    "color": "#FFFFFF"
+                },
+                "tertiarySelectedCta": {
+                    "backgroundColor": "#333333",
+                    "borderColor": "#E5E5E5",
+                    "color": "#FFFFFF"
+                }
+            },
+            "header": {
+            },
+            "pageCta": [
+            ],
+            "popupData": {
+            },
+            "primaryDynamicStatus": "RESOLVED",
+            "primaryStaticStatus": "RESOLVED",
+            "releaseDate": "Mar 17, 2023",
+            "secondaryDynamicStatus": "RESOLVED",
+            "secondaryStatus": "RESOLVED",
+            "shareProps": {
+            },
+            "tvod": {
+            }
+        },
+        "synopsisRender": {
+            "bannerWidget": {
+                "bannerImageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/zwigato-et00351091-1674826404.jpg",
+                "censor": "U",
+                "duration": "1h 45m",
+                "genres": [
+                    {
+                        "label": "Drama",
+                        "redirectionUrl": "https://in.bookmyshow.com/explore/drama-movies-pune"
+                    }
+                ],
+                "heading": "Zwigato",
+                "languages": [
+                    {
+                        "label": "Hindi",
+                        "redirectionUrl": "https://in.bookmyshow.com/explore/hindi-movies-pune"
+                    }
+                ],
+                "multimedia": {
+                    "objectData": {
+                        "autoPlaybackInfo": null,
+                        "headingAltText": "Zwigato",
+                        "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/zwigato-et00351091-1674826404.jpg",
+                        "infoBarColor": "#000000",
+                        "infoTagColor": "#1F253A",
+                        "isVertical": true,
+                        "meta": {
+                            "languages": [
+                                {
+                                    "description": "Hindi",
+                                    "id": 1,
+                                    "label": "Hindi"
+                                }
+                            ],
+                            "videos": [
+                                {
+                                    "analytics": {
+                                        "category": "Trailer",
+                                        "display_position": 1,
+                                        "in_widget_position": 1
+                                    },
+                                    "imageUrl": "https://img.youtube.com/vi/xtd1aB-iLe0/0.jpg",
+                                    "languageId": "1",
+                                    "videoId": "xtd1aB-iLe0",
+                                    "videoUrl": "https://www.youtube.com/watch?v=xtd1aB-iLe0"
+                                }
+                            ]
+                        },
+                        "primaryColor": "#FFFFFF",
+                        "primaryInfo": "In cinemas",
+                        "secondaryColor": "#FFFFFF",
+                        "secondaryInfo": "",
+                        "subtitle": "Trailer",
+                        "title": "",
+                        "titleBarColor": "",
+                        "titleColor": "",
+                        "titleIconUrl": ""
+                    },
+                    "type": "multimedia"
+                },
+                "pageCta": [
+                    {
+                        "analytics": {
+                            "event_name": "synopsis_book_clicked",
+                            "screen_name": "movie_synopsis"
+                        },
+                        "ctaType": "bookTickets",
+                        "isEnabled": true,
+                        "meta": {
+                            "options": [
+                                {
+                                    "formats": [
+                                        {
+                                            "analytics": {
+                                                "event_code": "ET00351091",
+                                                "event_name": "language_format_selected",
+                                                "screen_name": "language_format_selection"
+                                            },
+                                            "dimension": "2D",
+                                            "eventCode": "ET00351091"
+                                        }
+                                    ],
+                                    "language": "Hindi"
+                                }
+                            ],
+                            "subtitle": "Select language and format",
+                            "title": "Zwigato"
+                        },
+                        "phase": "postRelease",
+                        "position": "0",
+                        "styleTag": "primaryCta",
+                        "text": "<span style='font-weight: 500; font-size: 16px; color: rgb(255, 255, 255);'>Book tickets</span>"
+                    }
+                ],
+                "releaseDate": "17 Mar, 2023",
+                "resolutions": [
+                    {
+                        "label": "2D",
+                        "redirectionUrl": "https://in.bookmyshow.com/explore/2d-movies-pune"
+                    }
+                ],
+                "secondaryData": {
+                    "interested": {
+                        "objectData": {
+                            "analytics": {
+                                "display_position": 0
+                            },
+                            "ctaInfo": {
+                                "postCtaText": "Interested",
+                                "preCtaText": "Mark interest"
+                            },
+                            "ctaStyle": "tertiaryCta",
+                            "headerInfo": {
+                                "isInterested": false,
+                                "postSubtitle": "and 9.1K are interested",
+                                "postTitle": "You",
+                                "preSubtitle": "are interested",
+                                "preTitle": "9.1K"
+                            }
+                        },
+                        "type": "interestedSection"
+                    }
+                },
+                "showShare": true,
+                "splitter": "  •  "
+            },
+            "breadcrumbList": [
+                {
+                    "label": "Online tickets",
+                    "redirectionUrl": "https://in.bookmyshow.com"
+                },
+                {
+                    "label": "Movie tickets",
+                    "redirectionUrl": "https://in.bookmyshow.com/movies"
+                },
+                {
+                    "label": "Latest Movies",
+                    "redirectionUrl": "https://in.bookmyshow.com/explore/movies"
+                },
+                {
+                    "label": "Zwigato",
+                    "redirectionUrl": "https://in.bookmyshow.com/movies/zwigato/ET00351091"
+                }
+            ],
+            "desktopAdtech": {
+                "objectData": {
+                    "aspectRatio": 4,
+                    "customFilters": {
+                        "eventCode": "ET00351091",
+                        "genre": [
+                            "Drama"
+                        ],
+                        "movieType": "2D"
+                    },
+                    "id": "AD_MOVIE_SYNOPSIS_CARD",
+                    "type": null
+                },
+                "type": "adtech"
+            },
+            "initialWidgetRenderList": [
+                {
+                    "apiSource": "static,dynamic",
+                    "position": "0",
+                    "source": "primary"
+                },
+                {
+                    "apiSource": "static",
+                    "objectData": {
+                        "analytics": {
+                            "display_position": 2
+                        },
+                        "charLimit": 100,
+                        "description": "Manas, an ex-factory floor manager loses his job during the pandemic. He is then forced to work as a food delivery rider, grappling with the app and the world of ratings and incentives. Life is relentless for him, but not without shared moments of joy with his wife, Pratima. The film captures the life of invisible `ordinary` people, hidden in plain sight.",
+                        "readLessText": "...less",
+                        "readMoreText": "...more",
+                        "readMoreTextColor": "#F84464",
+                        "title": "About the movie"
+                    },
+                    "position": "1",
+                    "source": "primary",
+                    "type": "eventDescription"
+                }
+            ],
+            "initialWidgetsBasedSecondaryDataList": [
+                {
+                    "apiSource": "static",
+                    "header": {
+                        "title": "Cast"
+                    },
+                    "listData": [
+                        {
+                            "analytics": {
+                                "display_position": 5,
+                                "event_name": "artist_clicked",
+                                "label": "Kapil Sharma",
+                                "type": "cast"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/kapil-sharma/2748",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/kapil-sharma-2748-24-03-2017-13-55-34.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Actor",
+                            "title": "Kapil Sharma"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 5,
+                                "event_name": "artist_clicked",
+                                "label": "Shahana Goswami",
+                                "type": "cast"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/shahana-goswami/3230",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/shahana-goswami-3230-24-03-2017-13-56-22.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Actor",
+                            "title": "Shahana Goswami"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 5,
+                                "event_name": "artist_clicked",
+                                "label": "Sayani Gupta",
+                                "type": "cast"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/sayani-gupta/29115",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sayani-gupta-29115-24-03-2017-16-00-55.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Actor",
+                            "title": "Sayani Gupta"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 5,
+                                "event_name": "artist_clicked",
+                                "label": "Gul Panag",
+                                "type": "cast"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/gul-panag/772",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/gul-panag-772-1677583131.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Actor",
+                            "title": "Gul Panag"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 5,
+                                "event_name": "artist_clicked",
+                                "label": "Swanand Kirkire",
+                                "type": "cast"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/swanand-kirkire/3651",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/swanand-kirkire-3651-1677582960.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Actor",
+                            "title": "Swanand Kirkire"
+                        }
+                    ],
+                    "position": "4",
+                    "source": "primary",
+                    "type": "horizontalCircularList"
+                },
+                {
+                    "apiSource": "static",
+                    "header": {
+                        "title": "Crew"
+                    },
+                    "listData": [
+                        {
+                            "analytics": {
+                                "display_position": 6,
+                                "event_name": "artist_clicked",
+                                "label": "Nandita Das",
+                                "type": "crew"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/nandita-das/1546",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/nandita-das-1546-1677582270.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Director, Writer",
+                            "title": "Nandita Das"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 6,
+                                "event_name": "artist_clicked",
+                                "label": "Sameer Nair",
+                                "type": "crew"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/sameer-nair/2026210",
+                            "errorMsg": "Profile coming soon",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sameer-nair-2026210-1677582150.jpg",
+                            "isEnabled": false,
+                            "subtitle": "Producer",
+                            "title": "Sameer Nair"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 6,
+                                "event_name": "artist_clicked",
+                                "label": "Deepak Segal",
+                                "type": "crew"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/deepak-segal/2026209",
+                            "errorMsg": "Profile coming soon",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/deepak-segal-2026209-1677581827.jpg",
+                            "isEnabled": false,
+                            "subtitle": "Producer",
+                            "title": "Deepak Segal"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 6,
+                                "event_name": "artist_clicked",
+                                "label": "Samir Patel",
+                                "type": "crew"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/samir-patel/1084969",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/samir-patel-1084969-01-08-2017-11-48-20.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Writer",
+                            "title": "Samir Patel"
+                        }
+                    ],
+                    "position": "5",
+                    "source": "primary",
+                    "type": "horizontalCircularList"
+                },
+                {
+                    "apiSource": "static",
+                    "position": "10",
+                    "source": "primary"
+                }
+            ],
+            "lazyWidgetRenderList": [
+                {
+                    "apiSource": "secondary",
+                    "header": {
+                        "title": "Applicable offers"
+                    },
+                    "listData": [
+                        {
+                            "analytics": {
+                                "display_position": 3,
+                                "event_name": "synopsis_offer_clicked",
+                                "offer_code": "BMSTV02221",
+                                "offer_title": "STREAMING MOVIES FOR FREE!!",
+                                "offer_type": "pc",
+                                "screen_name": "movie_synopsis"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/explore/stream-movies-limited-period-free-access",
+                            "imageUrl": "https://in.bmscdn.com/offers/offerlogo/bms-stream-first-movie-free-datenight.jpg?19022021140648",
+                            "subtitle": "Watch online, Limited Period Offer",
+                            "title": "STREAMING MOVIES FOR FREE!!"
+                        }
+                    ],
+                    "position": "2",
+                    "source": "secondary",
+                    "type": "fullWidthCardHorizontalList"
+                },
+                {
+                    "apiSource": "static",
+                    "header": {
+                        "title": "Cast"
+                    },
+                    "listData": [
+                        {
+                            "analytics": {
+                                "display_position": 5,
+                                "event_name": "artist_clicked",
+                                "label": "Kapil Sharma",
+                                "type": "cast"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/kapil-sharma/2748",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/kapil-sharma-2748-24-03-2017-13-55-34.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Actor",
+                            "title": "Kapil Sharma"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 5,
+                                "event_name": "artist_clicked",
+                                "label": "Shahana Goswami",
+                                "type": "cast"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/shahana-goswami/3230",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/shahana-goswami-3230-24-03-2017-13-56-22.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Actor",
+                            "title": "Shahana Goswami"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 5,
+                                "event_name": "artist_clicked",
+                                "label": "Sayani Gupta",
+                                "type": "cast"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/sayani-gupta/29115",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sayani-gupta-29115-24-03-2017-16-00-55.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Actor",
+                            "title": "Sayani Gupta"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 5,
+                                "event_name": "artist_clicked",
+                                "label": "Gul Panag",
+                                "type": "cast"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/gul-panag/772",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/gul-panag-772-1677583131.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Actor",
+                            "title": "Gul Panag"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 5,
+                                "event_name": "artist_clicked",
+                                "label": "Swanand Kirkire",
+                                "type": "cast"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/swanand-kirkire/3651",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/swanand-kirkire-3651-1677582960.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Actor",
+                            "title": "Swanand Kirkire"
+                        }
+                    ],
+                    "position": "4",
+                    "source": "primary",
+                    "type": "horizontalCircularList"
+                },
+                {
+                    "apiSource": "static",
+                    "header": {
+                        "title": "Crew"
+                    },
+                    "listData": [
+                        {
+                            "analytics": {
+                                "display_position": 6,
+                                "event_name": "artist_clicked",
+                                "label": "Nandita Das",
+                                "type": "crew"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/nandita-das/1546",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/nandita-das-1546-1677582270.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Director, Writer",
+                            "title": "Nandita Das"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 6,
+                                "event_name": "artist_clicked",
+                                "label": "Sameer Nair",
+                                "type": "crew"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/sameer-nair/2026210",
+                            "errorMsg": "Profile coming soon",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sameer-nair-2026210-1677582150.jpg",
+                            "isEnabled": false,
+                            "subtitle": "Producer",
+                            "title": "Sameer Nair"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 6,
+                                "event_name": "artist_clicked",
+                                "label": "Deepak Segal",
+                                "type": "crew"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/deepak-segal/2026209",
+                            "errorMsg": "Profile coming soon",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/deepak-segal-2026209-1677581827.jpg",
+                            "isEnabled": false,
+                            "subtitle": "Producer",
+                            "title": "Deepak Segal"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 6,
+                                "event_name": "artist_clicked",
+                                "label": "Samir Patel",
+                                "type": "crew"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/samir-patel/1084969",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/samir-patel-1084969-01-08-2017-11-48-20.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Writer",
+                            "title": "Samir Patel"
+                        }
+                    ],
+                    "position": "5",
+                    "source": "primary",
+                    "type": "horizontalCircularList"
+                },
+                {
+                    "apiSource": "secondary",
+                    "header": {
+                        "analytics": {
+                            "display_position": 0,
+                            "event_name": "view_all_clicked",
+                            "type": "recommended",
+                            "widget_id": "You might also like",
+                            "widget_title": "You might also like"
+                        },
+                        "seeMoreText": "View All",
+                        "seeMoreUrl": "https://in.bookmyshow.com/explore/movies-pune",
+                        "title": "You might also like"
+                    },
+                    "listData": [
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Mrs. Chatterjee vs Norway",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/mrs-chatterjee-vs-norway/ET00319185",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/mrs-chatterjee-vs-norway-et00319185-1678274110.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/interested-icon.png",
+                                "title": "16.4K likes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Mrs. Chatterjee vs Norway"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Kabzaa",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/kabzaa/ET00315054",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/kabzaa-et00315054-1675076687.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/interested-icon.png",
+                                "title": "226.1K likes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Kabzaa"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Shubh Nikah",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/shubh-nikah/ET00354147",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/shubh-nikah-et00354147-1677829545.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/interested-icon.png",
+                                "title": "1.6K likes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Shubh Nikah"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "RRR",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/rrr/ET00094579",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/rrr-et00094579-12-05-2022-02-26-04.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/star-icon.png",
+                                "title": "8.9/10  998.3K votes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "RRR"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Tu Jhoothi Main Makkaar",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/tu-jhoothi-main-makkaar/ET00347237",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/tu-jhoothi-main-makkaar-et00347237-1675065103.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/star-icon.png",
+                                "title": "7.8/10  51.6K votes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Tu Jhoothi Main Makkaar"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Shazam! Fury of the Gods",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/shazam-fury-of-the-gods/ET00312239",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/shazam-fury-of-the-gods-et00312239-1678088844.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/interested-icon.png",
+                                "title": "58.9K likes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Shazam! Fury of the Gods"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Fast X",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/fast-x/ET00122562",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/fast-x-et00122562-1676446752.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/interested-icon.png",
+                                "title": "76.2K likes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Fast X"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Pathaan",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/pathaan/ET00323848",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/pathaan-et00323848-1674372556.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/star-icon.png",
+                                "title": "8.2/10  357.2K votes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Pathaan"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Avatar: The Way of Water",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/avatar-the-way-of-water/ET00037264",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/avatar-the-way-of-water-et00037264-1670850986.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/star-icon.png",
+                                "title": "8.7/10  222.5K votes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Avatar: The Way of Water"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Raundal",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/raundal/ET00352336",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/raundal-et00352336-1677141376.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/star-icon.png",
+                                "title": "9.3/10  2.1K votes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Raundal"
+                        }
+                    ],
+                    "position": "9",
+                    "source": "secondary",
+                    "type": "horizontalRectList"
+                },
+                {
+                    "apiSource": "static",
+                    "position": "10",
+                    "source": "primary"
+                }
+            ],
+            "primaryWidgetHashmap": {
+                "1": {
+                    "objectData": {
+                        "analytics": {
+                            "display_position": 2
+                        },
+                        "charLimit": 100,
+                        "description": "Manas, an ex-factory floor manager loses his job during the pandemic. He is then forced to work as a food delivery rider, grappling with the app and the world of ratings and incentives. Life is relentless for him, but not without shared moments of joy with his wife, Pratima. The film captures the life of invisible `ordinary` people, hidden in plain sight.",
+                        "readLessText": "...less",
+                        "readMoreText": "...more",
+                        "readMoreTextColor": "#F84464",
+                        "title": "About the movie"
+                    },
+                    "type": "eventDescription"
+                },
+                "4": {
+                    "header": {
+                        "title": "Cast"
+                    },
+                    "listData": [
+                        {
+                            "analytics": {
+                                "display_position": 5,
+                                "event_name": "artist_clicked",
+                                "label": "Kapil Sharma",
+                                "type": "cast"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/kapil-sharma/2748",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/kapil-sharma-2748-24-03-2017-13-55-34.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Actor",
+                            "title": "Kapil Sharma"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 5,
+                                "event_name": "artist_clicked",
+                                "label": "Shahana Goswami",
+                                "type": "cast"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/shahana-goswami/3230",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/shahana-goswami-3230-24-03-2017-13-56-22.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Actor",
+                            "title": "Shahana Goswami"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 5,
+                                "event_name": "artist_clicked",
+                                "label": "Sayani Gupta",
+                                "type": "cast"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/sayani-gupta/29115",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sayani-gupta-29115-24-03-2017-16-00-55.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Actor",
+                            "title": "Sayani Gupta"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 5,
+                                "event_name": "artist_clicked",
+                                "label": "Gul Panag",
+                                "type": "cast"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/gul-panag/772",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/gul-panag-772-1677583131.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Actor",
+                            "title": "Gul Panag"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 5,
+                                "event_name": "artist_clicked",
+                                "label": "Swanand Kirkire",
+                                "type": "cast"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/swanand-kirkire/3651",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/swanand-kirkire-3651-1677582960.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Actor",
+                            "title": "Swanand Kirkire"
+                        }
+                    ],
+                    "type": "horizontalCircularList"
+                },
+                "5": {
+                    "header": {
+                        "title": "Crew"
+                    },
+                    "listData": [
+                        {
+                            "analytics": {
+                                "display_position": 6,
+                                "event_name": "artist_clicked",
+                                "label": "Nandita Das",
+                                "type": "crew"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/nandita-das/1546",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/nandita-das-1546-1677582270.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Director, Writer",
+                            "title": "Nandita Das"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 6,
+                                "event_name": "artist_clicked",
+                                "label": "Sameer Nair",
+                                "type": "crew"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/sameer-nair/2026210",
+                            "errorMsg": "Profile coming soon",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sameer-nair-2026210-1677582150.jpg",
+                            "isEnabled": false,
+                            "subtitle": "Producer",
+                            "title": "Sameer Nair"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 6,
+                                "event_name": "artist_clicked",
+                                "label": "Deepak Segal",
+                                "type": "crew"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/deepak-segal/2026209",
+                            "errorMsg": "Profile coming soon",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/deepak-segal-2026209-1677581827.jpg",
+                            "isEnabled": false,
+                            "subtitle": "Producer",
+                            "title": "Deepak Segal"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 6,
+                                "event_name": "artist_clicked",
+                                "label": "Samir Patel",
+                                "type": "crew"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/person/samir-patel/1084969",
+                            "errorMsg": "",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/samir-patel-1084969-01-08-2017-11-48-20.jpg",
+                            "isEnabled": true,
+                            "subtitle": "Writer",
+                            "title": "Samir Patel"
+                        }
+                    ],
+                    "type": "horizontalCircularList"
+                }
+            },
+            "secondaryWidgetHashmap": {
+                "2": {
+                    "header": {
+                        "title": "Applicable offers"
+                    },
+                    "listData": [
+                        {
+                            "analytics": {
+                                "display_position": 3,
+                                "event_name": "synopsis_offer_clicked",
+                                "offer_code": "BMSTV02221",
+                                "offer_title": "STREAMING MOVIES FOR FREE!!",
+                                "offer_type": "pc",
+                                "screen_name": "movie_synopsis"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/explore/stream-movies-limited-period-free-access",
+                            "imageUrl": "https://in.bmscdn.com/offers/offerlogo/bms-stream-first-movie-free-datenight.jpg?19022021140648",
+                            "subtitle": "Watch online, Limited Period Offer",
+                            "title": "STREAMING MOVIES FOR FREE!!"
+                        }
+                    ],
+                    "type": "fullWidthCardHorizontalList"
+                },
+                "9": {
+                    "header": {
+                        "analytics": {
+                            "display_position": 0,
+                            "event_name": "view_all_clicked",
+                            "type": "recommended",
+                            "widget_id": "You might also like",
+                            "widget_title": "You might also like"
+                        },
+                        "seeMoreText": "View All",
+                        "seeMoreUrl": "https://in.bookmyshow.com/explore/movies-pune",
+                        "title": "You might also like"
+                    },
+                    "listData": [
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Mrs. Chatterjee vs Norway",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/mrs-chatterjee-vs-norway/ET00319185",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/mrs-chatterjee-vs-norway-et00319185-1678274110.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/interested-icon.png",
+                                "title": "16.4K likes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Mrs. Chatterjee vs Norway"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Kabzaa",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/kabzaa/ET00315054",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/kabzaa-et00315054-1675076687.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/interested-icon.png",
+                                "title": "226.1K likes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Kabzaa"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Shubh Nikah",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/shubh-nikah/ET00354147",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/shubh-nikah-et00354147-1677829545.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/interested-icon.png",
+                                "title": "1.6K likes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Shubh Nikah"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "RRR",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/rrr/ET00094579",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/rrr-et00094579-12-05-2022-02-26-04.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/star-icon.png",
+                                "title": "8.9/10  998.3K votes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "RRR"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Tu Jhoothi Main Makkaar",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/tu-jhoothi-main-makkaar/ET00347237",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/tu-jhoothi-main-makkaar-et00347237-1675065103.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/star-icon.png",
+                                "title": "7.8/10  51.6K votes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Tu Jhoothi Main Makkaar"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Shazam! Fury of the Gods",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/shazam-fury-of-the-gods/ET00312239",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/shazam-fury-of-the-gods-et00312239-1678088844.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/interested-icon.png",
+                                "title": "58.9K likes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Shazam! Fury of the Gods"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Fast X",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/fast-x/ET00122562",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/fast-x-et00122562-1676446752.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/interested-icon.png",
+                                "title": "76.2K likes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Fast X"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Pathaan",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/pathaan/ET00323848",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/pathaan-et00323848-1674372556.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/star-icon.png",
+                                "title": "8.2/10  357.2K votes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Pathaan"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Avatar: The Way of Water",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/avatar-the-way-of-water/ET00037264",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/avatar-the-way-of-water-et00037264-1670850986.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/star-icon.png",
+                                "title": "8.7/10  222.5K votes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Avatar: The Way of Water"
+                        },
+                        {
+                            "analytics": {
+                                "display_position": 10,
+                                "event_name": "recommended_card_clicked",
+                                "event_type": "click",
+                                "label": "Raundal",
+                                "tags": "",
+                                "widget_title": "You might also like"
+                            },
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/raundal/ET00352336",
+                            "imageUrl": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/raundal-et00352336-1677141376.jpg",
+                            "infoBar": {
+                                "bgColor": "",
+                                "imageUrl": "https://in.bmscdn.com/moviemode/tvod/star-icon.png",
+                                "title": "9.3/10  2.1K votes",
+                                "titleColor": "#EEEEEE"
+                            },
+                            "isInternalRedirection": true,
+                            "subtitle": "",
+                            "title": "Raundal"
+                        }
+                    ],
+                    "type": "horizontalRectList"
+                }
+            },
+            "tvodMobileBanner": {
+            },
+            "widgetsOrder": [
+                {
+                    "apiSource": "static,dynamic",
+                    "position": "0",
+                    "source": "primary"
+                },
+                {
+                    "apiSource": "static",
+                    "position": "1",
+                    "source": "primary"
+                },
+                {
+                    "apiSource": "secondary",
+                    "position": "2",
+                    "source": "secondary"
+                },
+                {
+                    "apiSource": "static",
+                    "position": "4",
+                    "source": "primary"
+                },
+                {
+                    "apiSource": "static",
+                    "position": "5",
+                    "source": "primary"
+                },
+                {
+                    "apiSource": "secondary",
+                    "position": "6",
+                    "source": "secondary"
+                },
+                {
+                    "apiSource": "secondary",
+                    "position": "7",
+                    "source": "secondary"
+                },
+                {
+                    "apiSource": "secondary",
+                    "position": "8",
+                    "source": "secondary"
+                },
+                {
+                    "apiSource": "secondary",
+                    "position": "9",
+                    "source": "secondary"
+                },
+                {
+                    "apiSource": "static",
+                    "position": "10",
+                    "source": "primary"
+                },
+                {
+                    "apiSource": "secondary",
+                    "position": "11",
+                    "source": "secondary"
+                }
+            ]
+        }
+    },
+    "ticketDetails": {
+        "error": {
+        },
+        "status": "IDLE",
+        "ticketData": {
+        }
+    },
+    "tvodLogin": {
+        "errorData": {
+        },
+        "isError": false,
+        "isFetching": false,
+        "successData": {
+        }
+    },
+    "venueShowcase": {
+        "error": {
+        },
+        "isVenueShowcaseFailure": false,
+        "isVenueShowcaseFetching": false,
+        "isVenueShowcaseSuccess": false,
+        "venueShowcaseDetails": {
+        }
+    },
+    "venueShowtimes": {
+        "errorObj": {
+        },
+        "searchText": ""
+    },
+    "voice": {
+        "resultData": {
+        },
+        "resultMessage": "",
+        "resultStatus": "IDLE",
+        "suggestionList": [
+        ],
+        "suggestionMessage": "",
+        "suggestionStatus": "IDLE"
+    },
+    "voucher": {
+        "status": "IDLE",
+        "voucherData": {
+        }
+    },
+    "withDesktopLayout": {
+        "pageName": "all",
+        "regionChangeCallback": null,
+        "setSidebarOpen": null,
+        "signInCallback": null,
+        "signOutCallback": null
+    },
+    "youtube": {
+        "canPauseAllVideos": false,
+        "currentPlayingVideoID": "",
+        "isAPIloaded": false
+    }
+}

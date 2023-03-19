@@ -1,0 +1,360 @@
+{
+                    "alignItems": "left",
+                    "cards": [
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 2,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00351091",
+                                "event_group": "EG00350272",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "drama",
+                                "id": "listing-desktop-1_eg00350272_et00351091",
+                                "in_widget_position": 1,
+                                "is_tvod": "",
+                                "language": "hindi",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Zwigato",
+                                "widget_id": "listing-desktop-1",
+                                "widget_title": "LISTING-DESKTOP-1"
+                            },
+                            "buttons": [
+                            ],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/zwigato/ET00351091",
+                            "id": "EG00350272",
+                            "image": {
+                                "altText": "Zwigato",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-OS4ySyBsaWtlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00351091-buymqbanku-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [
+                            ],
+                            "seoText": "Zwigato",
+                            "styleId": "listings-event-card-style",
+                            "tags": [
+                                {
+                                    "label": {
+                                        "components": [
+                                            {
+                                                "text": "PROMOTED",
+                                                "type": "text"
+                                            }
+                                        ],
+                                        "maxLines": 1,
+                                        "styleId": "-5103615806931264414"
+                                    },
+                                    "styleId": "2759634946264020090"
+                                }
+                            ],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Zwigato",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "U",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Hindi",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 2,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00319185",
+                                "event_group": "EG00318888",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "biography|drama",
+                                "id": "listing-desktop-1_eg00318888_et00319185",
+                                "in_widget_position": 2,
+                                "is_tvod": "",
+                                "language": "hindi",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Mrs. Chatterjee Vs Norway",
+                                "widget_id": "listing-desktop-1",
+                                "widget_title": "LISTING-DESKTOP-1"
+                            },
+                            "buttons": [
+                            ],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/mrs-chatterjee-vs-norway/ET00319185",
+                            "id": "EG00318888",
+                            "image": {
+                                "altText": "Mrs. Chatterjee Vs Norway",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MTYuNksgbGlrZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00319185-aklbsxlqxl-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [
+                            ],
+                            "seoText": "Mrs. Chatterjee Vs Norway",
+                            "styleId": "listings-event-card-style",
+                            "tags": [
+                                {
+                                    "label": {
+                                        "components": [
+                                            {
+                                                "text": "PROMOTED",
+                                                "type": "text"
+                                            }
+                                        ],
+                                        "maxLines": 1,
+                                        "styleId": "-5103615806931264414"
+                                    },
+                                    "styleId": "2759634946264020090"
+                                }
+                            ],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Mrs. Chatterjee Vs Norway",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "U",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Hindi",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 2,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00347237",
+                                "event_group": "EG00346449",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "comedy|romantic",
+                                "id": "listing-desktop-1_eg00346449_et00347237",
+                                "in_widget_position": 3,
+                                "is_tvod": "",
+                                "language": "hindi",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Tu Jhoothi Main Makkaar",
+                                "widget_id": "listing-desktop-1",
+                                "widget_title": "LISTING-DESKTOP-1"
+                            },
+                            "buttons": [
+                            ],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/tu-jhoothi-main-makkaar/ET00347237",
+                            "id": "EG00346449",
+                            "image": {
+                                "altText": "Tu Jhoothi Main Makkaar",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny44LzEwICA1MS43SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00347237-wmnztybfrl-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [
+                            ],
+                            "seoText": "Tu Jhoothi Main Makkaar",
+                            "styleId": "listings-event-card-style",
+                            "tags": [
+                            ],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Tu Jhoothi Main Makkaar",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Hindi",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        },
+                        {
+                            "analytics": {
+                                "category": "",
+                                "display_position": 2,
+                                "event": "gtm_std_event",
+                                "event_code": "ET00315054",
+                                "event_group": "EG00314894",
+                                "event_name": "movie_card_clicked",
+                                "event_type": "click",
+                                "genre": "action|crime|drama|period",
+                                "id": "listing-desktop-1_eg00314894_et00315054",
+                                "in_widget_position": 4,
+                                "is_tvod": "",
+                                "language": "kannada",
+                                "metadata": "",
+                                "product": "movies",
+                                "region_code": "PUNE",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing",
+                                "tags": "",
+                                "title": "Kabzaa",
+                                "widget_id": "listing-desktop-1",
+                                "widget_title": "LISTING-DESKTOP-1"
+                            },
+                            "buttons": [
+                            ],
+                            "ctaUrl": "https://in.bookmyshow.com/pune/movies/kabzaa/ET00315054",
+                            "id": "EG00314894",
+                            "image": {
+                                "altText": "Kabzaa",
+                                "url": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MjI3SyBsaWtlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00315054-mfqwsxkwft-portrait.jpg"
+                            },
+                            "impressionAnalytics": {
+                                "event_name": "movie_card_viewed",
+                                "event_type": "impression",
+                                "is_tvod": "",
+                                "metadata": "",
+                                "schema_version": "3.0",
+                                "screen_name": "movies_listing"
+                            },
+                            "metaImages": [
+                            ],
+                            "seoText": "Kabzaa",
+                            "styleId": "listings-event-card-style",
+                            "tags": [
+                            ],
+                            "text": [
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Kabzaa",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 2,
+                                    "styleId": "card-title-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "UA",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "text": "Kannada, Marathi, Odia, Malayalam, Tamil, Hindi, Telugu",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "maxLines": 1,
+                                    "styleId": "card-muted-text-01"
+                                }
+                            ],
+                            "type": "vertical"
+                        }
+                    ],
+                    "horizontalSpacing": 32,
+                    "id": "listing-desktop-1",
+                    "isSticky": false,
+                    "itemsPerRow": 4,
+                    "matchMaxCardHeight": false,
+                    "styleId": "widget-listings-events",
+                    "type": "flexbox",
+                    "verticalSpacing": 32
+                },
+                
